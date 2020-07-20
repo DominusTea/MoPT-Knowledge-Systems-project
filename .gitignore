@@ -1,3 +1,5 @@
 __pycache__/
 bin/
 source/data/
+temp/
+*.zip

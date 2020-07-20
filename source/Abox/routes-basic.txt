@@ -1,0 +1,750 @@
+@prefix MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+MoPT:021 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΝΙΓΓΟΣ - ΓΚΥΖΗ"^^xsd:string .
+
+MoPT:022 a MoPT:bus_route ;
+    MoPT:route_long "Ν. ΚΥΨΕΛΗ - ΜΑΡΑΣΛΕΙΟΣ"^^xsd:string .
+
+MoPT:024 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΣΤ. ΑΤΤΙΚΗΣ - ΣΤ. ΛΑΡΙΣΗΣ (ΚΥΚΛΙΚΗ"^^xsd:string .
+
+MoPT:025 a MoPT:bus_route ;
+    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΠΡΟΦ. ΔΑΝΙΗΛ"^^xsd:string .
+
+MoPT:026 a MoPT:bus_route ;
+    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΒΟΤΑΝΙΚΟΣ"^^xsd:string .
+
+MoPT:027 a MoPT:bus_route ;
+    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΟΡΦΕΩΣ"^^xsd:string .
+
+MoPT:032 a MoPT:bus_route ;
+    MoPT:route_long "ΓΟΥΔΗ - ΜΑΡΑΣΛΕΙΟΣ (ΣΧΟΛΙΚΗ)"^^xsd:string .
+
+MoPT:035 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΠΕΤΡΑΛΩΝΑ - ΤΑΥΡΟΣ"^^xsd:string .
+
+MoPT:036 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ.ΚΑΤΕΧΑΚΗ - ΣΤ.ΠΑΝΟΡΜΟΥ - ΓΑΛΑΤΣΙ - ΚΥΨΕΛΗ (ΚΥΚ)"^^xsd:string .
+
+MoPT:040 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΣΥΝΤΑΓΜΑ"^^xsd:string .
+
+MoPT:046 a MoPT:bus_route ;
+    MoPT:route_long "ΜΟΥΣΕΙΟ - ΕΛΛΗΝΟΡΩΣΩΝ"^^xsd:string .
+
+MoPT:049 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΟΜΟΝΟΙΑ"^^xsd:string .
+
+MoPT:051 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΣΤΑΘ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ"^^xsd:string .
+
+MoPT:054 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΡΙΣΣΟΣ - ΑΚΑΔΗΜΙΑ - ΜΕΤΑΜΟΡΦΩΣΗ"^^xsd:string .
+
+MoPT:057 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΛΟΦΟΣ ΣΚΟΥΖΕ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:060 a MoPT:bus_route ;
+    MoPT:route_long "ΜΟΥΣΕΙΟ - ΑΚΑΔΗΜΙΑ - ΛΥΚΑΒΗΤΤΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:1 a MoPT:tram_route ;
+    MoPT:route_long "ΠΛΑΤ. ΑΤΤΙΚΗΣ - ΤΖΙΤΖΙΦΙΕΣ - ΜΟΣΧΑΤΟ"^^xsd:string .
+
+MoPT:10 a MoPT:tram_route ;
+    MoPT:route_long "ΤΖΙΤΖΙΦΙΕΣ - ΧΑΛΑΝΔΡΙ"^^xsd:string .
+
+MoPT:100 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΚΟΛΩΝΑΚΙ - ΑΓΟΡΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:101 a MoPT:bus_route ;
+    MoPT:route_long "ΑΛΙΜΟΣ - ΕΛΛΗNIKO"^^xsd:string .
+
+MoPT:106 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:109 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΝΩ ΚΑΛΑΜΑΚΙ"^^xsd:string .
+
+MoPT:11 a MoPT:tram_route ;
+    MoPT:route_long "Α. ΠΑΤΗΣΙΑ - Ν. ΠΑΓΚΡΑΤΙ - Ν. ΕΛΒΕΤΙΑ"^^xsd:string .
+
+MoPT:112 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΣΤΑΘ. ΔΑΦΝΗΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:12 a MoPT:tram_route ;
+    MoPT:route_long "ΖΑΠΠΕΙΟ - ΠΕΡΙΣΤΕΡΙ"^^xsd:string .
+
+MoPT:120 a MoPT:bus_route ;
+    MoPT:route_long "ΓΛΥΦΑΔΑ - ΒΑΡΗ  - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ"^^xsd:string .
+
+MoPT:122 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΛΛΗΝΙΚΟ - ΣΑΡΩΝΙΔΑ"^^xsd:string .
+
+MoPT:123 a MoPT:bus_route ;
+    MoPT:route_long "ΣΑΡΩΝΙΔΑ - ΑΝΑΒΥΣΣΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:126 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΛ. ΦΑΛΗΡΟ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:130 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Ν. ΣΜΥΡΝΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:131 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΑΦΝΗΣ - ΑΜΑΞ/ΣΙΟ  ΑΓ. ΔΗΜΗΤΡΙΟΥ"^^xsd:string .
+
+MoPT:136 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ Ν. ΣΜΥΡΝΗ Β - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:137 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ Ν. ΣΜΥΡΝΗ Α - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:14 a MoPT:tram_route ;
+    MoPT:route_long "ΛΑΜΠΡΙΝΗ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΓΗΡΟΚΟΜΕΙΟ"^^xsd:string .
+
+MoPT:140 a MoPT:bus_route ;
+    MoPT:route_long "ΠΟΛΥΓΩΝΟ - ΓΛΥΦΑΔΑ"^^xsd:string .
+
+MoPT:141 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΑΦΝΗΣ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:142 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΑΡΓΥΡΟΥΠΟΛΗ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:15 a MoPT:tram_route ;
+    MoPT:route_long "ΠΕΤΡΑΛΩΝΑ - ΔΙΚΑΣΤΗΡΙΑ - ΕΛ. ΒΕΝΙΖΕΛΟΥ"^^xsd:string .
+
+MoPT:154 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΛΛΗΝΙΚΟ - ΑΝΩ ΓΛΥΦΑΔΑ (ΠΑΝΟΡΑΜΑ ΒΟΥΛΑΣ)"^^xsd:string .
+
+MoPT:155 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΛΗΝΙΚΟ - ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:16 a MoPT:tram_route ;
+    MoPT:route_long "ΑΓ. ΙΩΑΝΝΗΣ ΡΕΝΤΗΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:162 a MoPT:bus_route ;
+    MoPT:route_long "ΒΟΥΛΑ - ΠΑΝΟΡΑΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:164 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ.ΑΓ.ΔΗΜΗΤΡΙΟΣ - Κ. ΗΛ/ΠΟΛΗ - ΑΡΓ/ΠΟΛΗ - ΤΕΡΨΙΘΕΑ"^^xsd:string .
+
+MoPT:165 a MoPT:bus_route ;
+    MoPT:route_long "ΤΕΡΨΙΘΕΑ - ΑΡΓΥΡΟΥΠΟΛΗ - ΣΥΝΤΑΓΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:17 a MoPT:tram_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΓΕΩΡΓΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:171 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΒΑΡΚΙΖΑ"^^xsd:string .
+
+MoPT:18 a MoPT:tram_route ;
+    MoPT:route_long "ΜΟΥΣΕΙΟ - ΧΑΛΑΝΔΡΙ (ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ)"^^xsd:string .
+
+MoPT:19 a MoPT:tram_route ;
+    MoPT:route_long "ΜΟΥΣΕΙΟ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ (ΣΙΔΕΡΑ)"^^xsd:string .
+
+MoPT:2 a MoPT:tram_route ;
+    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΠΑΓΚΡΑΤΙ - ΚΑΙΣΑΡΙΑΝΗ"^^xsd:string .
+
+MoPT:20 a MoPT:tram_route ;
+    MoPT:route_long "Ν. ΦΑΛΗΡΟ - ΚΑΣΤΕΛΛΑ - ΔΡΑΠΕΤΣΩΝΑ"^^xsd:string .
+
+MoPT:201 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΡΓΥΡΟΥΠΟΛΗ"^^xsd:string .
+
+MoPT:203 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΡΕΑΣ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:204 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΡ. ΣΑΚΕΤΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:206 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΑΦΝΗ - ΑΓΙΑ ΜΑΡΙΝΑ"^^xsd:string .
+
+MoPT:209 a MoPT:bus_route ;
+    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ - ΠΛΑΤΕΙΑ ΣΥΝΤΑΓΜΑΤΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:21 a MoPT:tram_route ;
+    MoPT:route_long "ΝΙΚΑΙΑ - Π. ΡΑΛΛΗ - ΟΜΟΝΟΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:212 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΔΑΦΝΗΣ - ΒΥΡΩΝΑΣ - ΚΑΡΕΑΣ"^^xsd:string .
+
+MoPT:217 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)"^^xsd:string .
+
+MoPT:218 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΣΤ. ΔΑΦΝΗΣ"^^xsd:string .
+
+MoPT:219 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΚΑΛΛΙΘΕΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ"^^xsd:string .
+
+MoPT:220 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ ΙΛΙΣΙΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:221 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:224 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΙΣΑΡΙΑΝΗ - ΕΛ. ΒΕΝΙΖΕΛΟΥ"^^xsd:string .
+
+MoPT:227 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ ΠΕΤΡΑΛΩΝΑ - ΑΓ. ΑΡΤΕΜΙΟΣ"^^xsd:string .
+
+MoPT:229 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)"^^xsd:string .
+
+MoPT:230 a MoPT:bus_route ;
+    MoPT:route_long "ΑΚΡΟΠΟΛΗ - ΖΩΓΡΑΦΟΥ"^^xsd:string .
+
+MoPT:235 a MoPT:bus_route ;
+    MoPT:route_long "ΖΩΓΡΑΦΟΥ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:237 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΑΦΝΗ - ΑΝΩ ΗΛΙΟΥΠΟΛΗ"^^xsd:string .
+
+MoPT:24 a MoPT:tram_route ;
+    MoPT:route_long "ΠΕΤΡΟΥΠΟΛΗ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:242 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΤΕΧΝΕΙΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ) ΣΧΟΛ."^^xsd:string .
+
+MoPT:25 a MoPT:tram_route ;
+    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:250 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΣΤ. ΕΥΑΓΓΕΛΙΣΜΟΥ (ΚΥΚΛΙΚΗ) ΣΧ"^^xsd:string .
+
+MoPT:3 a MoPT:tram_route ;
+    MoPT:route_long "Ν. ΦΙΛΑΔΕΛΦΕΙΑ - ΑΝΩ ΠΑΤΗΣΙΑ - ΝΕΟ ΨΥΧΙΚΟ"^^xsd:string .
+
+MoPT:300 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΤΖΑΝΕΙΟ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:301 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΝΤΕΛΗ - ΣΤ. ΠΑΛΛΗΝΗ - ΔΗΜΑΡΧΕΙΟ ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:301Β a MoPT:bus_route ;
+    MoPT:route_long "ΤΟΠΙΚΗ ΑΝΘΟΥΣΑΣ - ΝΤΡΑΦΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:302 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:304 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΒΡΑΥΡΩΝΑ)"^^xsd:string .
+
+MoPT:305 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΑΓ. ΝΙΚΟΛΑΟΣ)"^^xsd:string .
+
+MoPT:306 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ-ΔΗΜΑΡΧ. ΓΕΡΑΚΑ-ΜΠΑΛΑΝΑ ΓΕΡΑΚΑ"^^xsd:string .
+
+MoPT:307 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ - ΓΛ. ΝΕΡΑ - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ"^^xsd:string .
+
+MoPT:308 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΠΑΙΑΝΙΑ - ΚΟΡΩΠΙ"^^xsd:string .
+
+MoPT:309 a MoPT:bus_route ;
+    MoPT:route_long "ΚΟΡΩΠΙ - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ - ΚΟΡΩΠΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:314 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΝΟΜ. ΑΝ. ΑΤΤΙΚΗΣ - ΠΑΛΛΗΝΗ"^^xsd:string .
+
+MoPT:316 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ"^^xsd:string .
+
+MoPT:319 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΔΟΥΚ. ΠΛΑΚ.- ΠΑΛΛΗΝΗ-ΕΚΠΤ. ΧΩΡΙΟ-ΣΠΑΤΑ"^^xsd:string .
+
+MoPT:322 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΝΙΚΟΛΑΟΣ - ΒΡΑΥΡΩΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:323 a MoPT:bus_route ;
+    MoPT:route_long "ΒΡΑΥΡΩΝΑ - ΑΓ. ΝΙΚΟΛΑΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:324 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΘΟΥΣΑ - ΠΑΛΛΗΝΗ - ΚΑΝΤΖΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:330 a MoPT:bus_route ;
+    MoPT:route_long "ΚΟΡΩΠΙ - ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:4 a MoPT:tram_route ;
+    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΑΓ. ΑΡΤΕΜΙΟΣ - ΣΤ. ΜΕΤΡΟ ΑΓ. ΙΩΑΝΝΗΣ"^^xsd:string .
+
+MoPT:402 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΔΡΟΣΟ"^^xsd:string .
+
+MoPT:404 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΘΝ.ΑΜΥΝΑΣ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ"^^xsd:string .
+
+MoPT:405 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΧΑΛΑΝΔΡΙ - ΜΕΛΙΣΣΙΑ"^^xsd:string .
+
+MoPT:406 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜ. - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΣΤ. ΠΛΑΚΕΝΤΙΑΣ"^^xsd:string .
+
+MoPT:407 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ-ΝΕΑ ΖΩΗ - ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ"^^xsd:string .
+
+MoPT:409 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΠΑΓΟΥ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ-ΣΤ.ΚΑΤΕΧΑΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:410 a MoPT:bus_route ;
+    MoPT:route_long "Ο.Α.Κ.Α - ΑΝΩ ΜΕΛΙΣΣΙΑ  (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:411 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΣΙΣΜΑΝΟΓΛΕΙΟ - ΧΑΛΑΝΔΡΙ"^^xsd:string .
+
+MoPT:413 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΠΑΓΟΥ - ΣΤ. ΚΑΤΕΧΑΚΗ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:416 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΧΟΛΑΡΓΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:418 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΣΧΟΛ. ΧΟΛΑΡΓΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:420 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΑΝΑΡΓΥΡΟΙ (Μέσω ΚΗΦΙΣΟΥ)"^^xsd:string .
+
+MoPT:421 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΑΓ. ΠΑΡΑΣΚΕΥΗ"^^xsd:string .
+
+MoPT:444 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΕΙΡΗΝΗ - ΓΑΛΑΤΣΙ - ΣΤ. ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:446 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΑΘ. ΑΜΑΡΟΥΣΙΟΥ - ΝΟΣΟΚ. ΠΕΝΤΕΛΗΣ (Μέσω ΠΙΚΠΑ)"^^xsd:string .
+
+MoPT:447 a MoPT:bus_route ;
+    MoPT:route_long "ΧΑΛΑΝΔΡΙ - ΑΝΩ ΒΡΙΛΗΣΣΙΑ"^^xsd:string .
+
+MoPT:5 a MoPT:tram_route ;
+    MoPT:route_long "ΛΑΜΠΡΙΝΗ - ΠΛ. ΣΥΝΤΑΓΜΑΤΟΣ - ΤΖΙΤΖΙΦΙΕΣ"^^xsd:string .
+
+MoPT:500 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ"^^xsd:string .
+
+MoPT:501 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΥΚΗ - ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:504 a MoPT:bus_route ;
+    MoPT:route_long "ΘΡΑΚΟΜΑΚΕΔΟΝΕΣ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:527 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΥΚΗ - ΝΕΡΑΤΖΙΩΤΙΣΣΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:541 a MoPT:bus_route ;
+    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ - ΣΤ. ΑΜΑΡΟΥΣΙΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:543 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΑΘΜΟΣ ΚΗΦΙΣΙΑΣ - ΝΟΣΟΚ. ΑΓ. ΑΝΑΡΓΥΡΟΙ"^^xsd:string .
+
+MoPT:550 a MoPT:bus_route ;
+    MoPT:route_long "Π. ΦΑΛΗΡΟ - ΚΗΦΙΣΙΑ"^^xsd:string .
+
+MoPT:560 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΚΗΦΙΣΙΑ - ΜΟΡΤΕΡΟ - Ν. ΕΡΥΘΡΑΙΑ"^^xsd:string .
+
+MoPT:6 a MoPT:tram_route ;
+    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ -ΚΟΣΜΑΣ ΑΙΤΩΛΟΣ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ"^^xsd:string .
+
+MoPT:602 a MoPT:bus_route ;
+    MoPT:route_long "Ν. ΙΩΝΙΑ - ΚΑΛΟΓΡΕΖΑ - ΣΤΑΘ. ΠΑΝΟΡΜΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:604 a MoPT:bus_route ;
+    MoPT:route_long "ΝΟΣ. ΑΓ. ΑΝΑΡΓΥΡΩΝ - ΣΤ. ΜΕΤΑΜΟΡΦΩΣΗΣ - ΝΕΑ ΙΩΝΙΑ"^^xsd:string .
+
+MoPT:605 a MoPT:bus_route ;
+    MoPT:route_long " ΠΕΡΙΣΣΟΣ - ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:608 a MoPT:bus_route ;
+    MoPT:route_long "ΓΑΛΑΤΣΙ - ΑΚΑΔΗΜΙΑ - ΝΕΚΡ. ΖΩΓΡΑΦΟΥ"^^xsd:string .
+
+MoPT:610 a MoPT:bus_route ;
+    MoPT:route_long "ΦΙΛΟΘΕΗ - ΑΜΠΕΛΟΚΗΠΟΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:619 a MoPT:bus_route ;
+    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ-Ν.ΦΙΛΑΔΕΛΦΕΙΑ-ΣΤ.ΑΝΩ ΠΑΤΗΣΙΩΝ(ΚΥΚΛΙΚ)"^^xsd:string .
+
+MoPT:622 a MoPT:bus_route ;
+    MoPT:route_long "ΓΟΥΔΗ - ΑΝΩ ΓΑΛΑΤΣΙ"^^xsd:string .
+
+MoPT:640 a MoPT:bus_route ;
+    MoPT:route_long "ΤΟΠΙΚΗ ΗΡΑΚΛΕΙΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:642 a MoPT:bus_route ;
+    MoPT:route_long "ΗΡΑΚΛΕΙΟ - ΑΓ.ΝΕΚΤΑΡΙΟΣ - ΠΕΥΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:651 a MoPT:bus_route ;
+    MoPT:route_long "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:653 a MoPT:bus_route ;
+    MoPT:route_long "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:700 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓΙΑ ΤΡΙΑΔΑ ΠΕΤΡΟΥΠΟΛΗ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚ)"^^xsd:string .
+
+MoPT:701 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:703 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ-ΑΓ. ΑΝΑΡΓΥΡΟΙ-ΑΓ. ΕΛΕΥΘΕΡΙΟΣ (Μέσω ΘΗΒΩΝ)"^^xsd:string .
+
+MoPT:704 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΠΛ. ΑΓ. ΑΝΑΡΓΥΡΩΝ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:705 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΜΑΤΕΡΟ-ΙΛΙΟΝ-ΠΛ.ΑΓ.ΑΝΑΡΓΥΡΩΝ-ΣΤ.ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛ."^^xsd:string .
+
+MoPT:711 a MoPT:bus_route ;
+    MoPT:route_long "ΖΩΦΡΙΑ - ΑΤΤΙΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:712 a MoPT:bus_route ;
+    MoPT:route_long "ΑΧΑΡΝΑΙ - ΕΡΓ. ΠΟΛ/ΚΙΕΣ - Α. ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:713 a MoPT:bus_route ;
+    MoPT:route_long "Α. ΛΙΟΣΙΑ (ΠΑΝΟΡΑΜΑ) - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ(ΑΝΩ ΛΙΟΣΙΑ)"^^xsd:string .
+
+MoPT:719 a MoPT:bus_route ;
+    MoPT:route_long "ΚΗΠΟΥΠΟΛΗ - ΠΑΛΑΤΙΑΝΗ - ΣΤ. ΛΑΡΙΣΗΣ(ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:721 a MoPT:bus_route ;
+    MoPT:route_long "ΑΧΑΡΝΑΙ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:723 a MoPT:bus_route ;
+    MoPT:route_long "ΦΥΛΗ - ΑΝΩ ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:724 a MoPT:bus_route ;
+    MoPT:route_long "ΘΡΑΚ/ΔΟΝΕΣ - ΑΧΑΡΝΑΙ - Ν. ΙΩΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:727 a MoPT:bus_route ;
+    MoPT:route_long "ΑΧΑΡΝΑΙ - ΜΕΣΟΝΥΧΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:730 a MoPT:bus_route ;
+    MoPT:route_long "ΛΟΦΟΣ ΑΞΙΩΜΑΤΙΚΩΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΖΩΟΔ. ΠΗΓΗ"^^xsd:string .
+
+MoPT:731 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΘΟΥΠΟΛΗ - ΣΤ. Μ. ΑΝΘΟΥΠΟΛΗ- ΑΤΤΙΚΟ ΝΟΣ-ΔΑΣΟΣ"^^xsd:string .
+
+MoPT:732 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΦΑΝΟΥΡΙΟΣ - ΑΚΑΔΗΜΙΑ - ΖΩΟΔ. ΠΗΓΗ"^^xsd:string .
+
+MoPT:735 a MoPT:bus_route ;
+    MoPT:route_long "ΑΧΑΡΝΑΙ -ΖΕΦΥΡΙ - ΣΤ. ΚΑΤΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:740 a MoPT:bus_route ;
+    MoPT:route_long "ΟΛΥΜΠ. ΧΩΡΙΟ - ΣΚΑ- ΑΧΑΡΝΑΙ- ΑΓ.ΑΝΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:747 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΤΡΟΥΠΟΛΗ - ΠΑΝΟΡΑΜΑ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:748 a MoPT:bus_route ;
+    MoPT:route_long "ΧΡΥΣΟΥΠΟΛΗ-ΑΝΘΟΥΠΟΛΗ-ΣΤ.ΠΕΡΙΣΤΕΡΙ"^^xsd:string .
+
+MoPT:750 a MoPT:bus_route ;
+    MoPT:route_long "ΑΤΤΙΚΟ ΝΟΣΟΚΟΜΕΙΟ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ - ΝΙΚΑΙΑ"^^xsd:string .
+
+MoPT:790 a MoPT:bus_route ;
+    MoPT:route_long "ΓΛΥΦΑΔΑ - ΠΕΡΙΣΤΕΡΙ (ΑΓ. ΑΝΤΩΝΙΟΣ)"^^xsd:string .
+
+MoPT:800 a MoPT:bus_route ;
+    MoPT:route_long "ΝΙΚΑΙΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:801 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΑΛΑΣΚΑ"^^xsd:string .
+
+MoPT:803 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΔΑΣΟΣ Β (Μέσω ΙΕΡΑΣ ΟΔΟΥ)"^^xsd:string .
+
+MoPT:805 a MoPT:bus_route ;
+    MoPT:route_long "ΑΣΠΡΟΠΥΡΓΟΣ - ΝΕΟΚΤΙΣΤΑ"^^xsd:string .
+
+MoPT:806 a MoPT:bus_route ;
+    MoPT:route_long "ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:807 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:809 a MoPT:bus_route ;
+    MoPT:route_long "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:810 a MoPT:bus_route ;
+    MoPT:route_long "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:811 a MoPT:bus_route ;
+    MoPT:route_long "ΧΑΪΔΑΡΙ - ΣΤ. ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:813 a MoPT:bus_route ;
+    MoPT:route_long "ΑΒΕΡΩΦ - ΠΡΟΥΣΣΗΣ"^^xsd:string .
+
+MoPT:814 a MoPT:bus_route ;
+    MoPT:route_long "ΣΧΙΣΤΟ - ΚΑΡΑΒΑΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:815 a MoPT:bus_route ;
+    MoPT:route_long "ΓΟΥΔΗ - ΤΑΥΡΟΣ"^^xsd:string .
+
+MoPT:816 a MoPT:bus_route ;
+    MoPT:route_long "ΤΑΥΡΟΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ"^^xsd:string .
+
+MoPT:817 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ"^^xsd:string .
+
+MoPT:818 a MoPT:bus_route ;
+    MoPT:route_long "ΛΙΜ. ΠΕΡΑΜΑΤΟΣ - ΑΝΩ ΠΕΡΑΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:819 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΡΑΜΑ - ΝΕΚΡ. ΣΧΙΣΤΟΥ"^^xsd:string .
+
+MoPT:820 a MoPT:bus_route ;
+    MoPT:route_long "ΚΕΡΑΤΣΙΝΙ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:821 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓΙΑ ΑΝΑΣΤΑΣΙΑ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:822 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΝΕΑ ΖΩΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:823 a MoPT:bus_route ;
+    MoPT:route_long " ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ- ΑΓ. ΒΑΣΙΛΕΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:824 a MoPT:bus_route ;
+    MoPT:route_long "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:825 a MoPT:bus_route ;
+    MoPT:route_long "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:826 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΜΗΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:827 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Γ΄ ΝΕΚΡΟΤ. - ΑΣΠΡΑ ΧΩΜΑΤΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:828 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΣΠΡΑ ΧΩΜΑΤΑ - Γ΄ ΝΕΚΡΟΤ. (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:829 a MoPT:bus_route ;
+    MoPT:route_long "ΤΕΙ ΠΕΙΡΑΙΑ - ΣΤ. ΑΙΓΑΛΕΩ - ΤΕΙ ΑΘΗΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:830 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:831 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΙΓΑΛΕΩ"^^xsd:string .
+
+MoPT:832 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΥΓΕΝΕΙΑ - ΧΑΡΑΥΓΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:833 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΧΑΡΑΥΓΗ - ΕΥΓΕΝΕΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:836 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΠΑΛΑΣΚΑ"^^xsd:string .
+
+MoPT:837 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΩ ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ.  ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:838 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΡΕΝΤΗΣ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:843 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΕΡΑΜΑ"^^xsd:string .
+
+MoPT:845 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω ΘΗΒΩΝ)"^^xsd:string .
+
+MoPT:846 a MoPT:bus_route ;
+    MoPT:route_long "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:847 a MoPT:bus_route ;
+    MoPT:route_long "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:852 a MoPT:bus_route ;
+    MoPT:route_long "ΝΕΑΠΟΛΗ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:855 a MoPT:bus_route ;
+    MoPT:route_long "ΨΑΡΙ - ΑΣΠΡΟΠΥΡΓΟΣ - ΛΟΦΟΣ ΚΥΡΙΛΛΟΥ"^^xsd:string .
+
+MoPT:856 a MoPT:bus_route ;
+    MoPT:route_long "ΑΙΓΑΛΕΩ - ΥΜΗΤΤΟΣ - ΔΑΦΝΗ"^^xsd:string .
+
+MoPT:859 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΔΕΞΑΜΕΝΕΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:860 a MoPT:bus_route ;
+    MoPT:route_long "Π. ΦΑΛΗΡΟ-ΓΕΝ. ΚΡΑΤΙΚΟ ΝΙΚΑΙΑΣ-ΣΧΙΣΤΟ ΚΕΡΑΤΣΙΝΙΟΥ"^^xsd:string .
+
+MoPT:861 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ (ΟΙΚΙΣΜΟΣ ΤΙΤΑΝ)"^^xsd:string .
+
+MoPT:862 a MoPT:bus_route ;
+    MoPT:route_long "ΠΑΡΑΛΙΑ - ΑΝΩ ΕΛΕΥΣΙΝΑ"^^xsd:string .
+
+MoPT:863 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΘΡΙΑΣΙΟ ΝΟΣ. - ΜΑΝΔΡΑ"^^xsd:string .
+
+MoPT:865 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΜΑΝΔΡΑ"^^xsd:string .
+
+MoPT:866 a MoPT:bus_route ;
+    MoPT:route_long "ΑΣΠΡΟΠΥΡΓΟΣ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:871 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω Λ. ΕΘΝ.ΑΝΤΙΣΤΑΣΕΩΣ)"^^xsd:string .
+
+MoPT:875 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Ν. ΜΩΛΟΣ ΔΡΑΠΕΤΣΩΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:876 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:881 a MoPT:bus_route ;
+    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΑΣΠΡΟΠΥΡΓΟΣ - ΡΟΥΠΑΚΙ"^^xsd:string .
+
+MoPT:891 a MoPT:bus_route ;
+    MoPT:route_long "ΑΙΓΑΛΕΩ - ΠΕΡΙΣΤΕΡΙ - ΣΤΑΘ. ΑΤΤΙΚΗΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:892 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΧΑΪΔΑΡΙ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΙΛΙΟΝ"^^xsd:string .
+
+MoPT:904 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΣΤ. ΠΕΙΡΑΙΑ - ΦΡΕΑΤΤΥΔΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:906 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΚΑΛΛΙΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:909 a MoPT:bus_route ;
+    MoPT:route_long "ΑΓ. ΒΑΣΙΛΕΙΟΣ - ΑΓ. ΣΟΦΙΑ - ΚΡΑΤ. ΝΙΚΑΙΑΣ"^^xsd:string .
+
+MoPT:910 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ - ΤΖΙΤΖΙΦΙΕΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:911 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΑΘ. ΚΑΛΛΙΘΕΑΣ - ΙΔΡ. ΤΥΦΛΩΝ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:914 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΛΑΧΑΝΑΓΟΡΑ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:915 a MoPT:bus_route ;
+    MoPT:route_long "ΛΟΦΟΣ ΒΩΚΟΥ- ΠΡ.ΗΛΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:Α1 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΒΟΥΛΑ"^^xsd:string .
+
+MoPT:Α10 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ"^^xsd:string .
+
+MoPT:Α11 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ (ΜΕΣΩ ΠΑΝΟΡΑΜΑΤΟΣ)"^^xsd:string .
+
+MoPT:Α13 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΚΗΠΟΥΠΟΛΗ"^^xsd:string .
+
+MoPT:Α15 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΔΑΣΟΣ"^^xsd:string .
+
+MoPT:Α16 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΕΛΕΥΣΙΝΑ (Μέσω ΙΕΡΑΣ ΟΔΟΥ)"^^xsd:string .
+
+MoPT:Α2 a MoPT:bus_route ;
+    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΒΟΥΛΑ (Μέσω Λ. ΑΜΦΙΘΕΑΣ)"^^xsd:string .
+
+MoPT:Α3 a MoPT:bus_route ;
+    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΓΛΥΦΑΔΑ  (Μέσω ΒΟΥΛΙΑΓΜΕΝΗΣ)"^^xsd:string .
+
+MoPT:Α5 a MoPT:bus_route ;
+    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΑΝΘΟΥΣΑ"^^xsd:string .
+
+MoPT:Α7 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΟΥΡΝΑΡΗ - ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)"^^xsd:string .
+
+MoPT:Α8 a MoPT:bus_route ;
+    MoPT:route_long "ΠΟΛΥΤΕΧΝΕΙΟ - Ν. ΙΩΝΙΑ - ΜΑΡΟΥΣΙ"^^xsd:string .
+
+MoPT:Β1 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΝΩ ΓΛΥΦΑΔΑ"^^xsd:string .
+
+MoPT:Β10 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ (Μέσω ΑΡΙΣΤΟΤΕΛΟΥΣ)"^^xsd:string .
+
+MoPT:Β11 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ"^^xsd:string .
+
+MoPT:Β12 a MoPT:bus_route ;
+    MoPT:route_long "ΜΑΡΝΗ - ΑΝΩ ΛΙΟΣΙΑ"^^xsd:string .
+
+MoPT:Β15 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΠΑΛΑΤΑΚΙ"^^xsd:string .
+
+MoPT:Β18 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω Π. ΡΑΛΛΗ)"^^xsd:string .
+
+MoPT:Β2 a MoPT:bus_route ;
+    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΑΓΙΟΣ ΚΟΣΜΑΣ (Μέσω ΠΑΡΑΛΙΑΚΗΣ)"^^xsd:string .
+
+MoPT:Β5 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΑΓ. ΠΑΡΑΣΚΕΥΗ"^^xsd:string .
+
+MoPT:Β9 a MoPT:bus_route ;
+    MoPT:route_long "ΧΑΛΚΟΚΟΝΔΥΛΗ - ΜΕΤΑΜΟΡΦΩΣΗ - Ν. ΚΗΦΙΣΙΑ"^^xsd:string .
+
+MoPT:Γ10 a MoPT:bus_route ;
+    MoPT:route_long "ΑΝΑΚΑΣΑ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΠΛ. ΒΑΘΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:Γ12 a MoPT:bus_route ;
+    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΑΓ.ΝΙΚΟΛΑΟΣ-ΙΛΙΟΝ - ΠΟΛ/ΧΝΕΙΟ(ΚΥΚΛΙΚΗ)"^^xsd:string .
+
+MoPT:Γ16 a MoPT:bus_route ;
+    MoPT:route_long "ΠΛΑΤΕΙΑ ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΑΣΠΡΟΠΥΡΓΟΣ"^^xsd:string .
+
+MoPT:Γ18 a MoPT:bus_route ;
+    MoPT:route_long "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω ΓΡ. ΛΑΜΠΡΑΚΗ)"^^xsd:string .
+
+MoPT:Γ9 a MoPT:bus_route ;
+    MoPT:route_long "ΧΑΛΚΟΚΟΝΔΥΛΗ - Κ. ΜΥΛΟΣ - ΑΧΑΡΝΑΙ"^^xsd:string .
+
+MoPT:Ε14 a MoPT:bus_route ;
+    MoPT:route_long "ΣΥΝΤΑΓΜΑ - Ο.Α.Κ.Α - ΥΠ.ΠΑΙΔΕΙΑΣ (EXPRESS)"^^xsd:string .
+
+MoPT:Ε15 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΤΕΙ ΑΘΗΝΩΝ (ΣΧΟΛΙΚΗ  EXPRESS)"^^xsd:string .
+
+MoPT:Ε90 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ (ΣΧΟΛΙΚΗ EXPRESS)"^^xsd:string .
+
+MoPT:Μ1 a MoPT:metro_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ"^^xsd:string .
+
+MoPT:Μ2 a MoPT:metro_route ;
+    MoPT:route_long "ΑΝΘΟΥΠΟΛΗ - ΣΤ.ΕΛΛΗΝΙΚΟ"^^xsd:string .
+
+MoPT:Μ3 a MoPT:metro_route ;
+    MoPT:route_long "ΑΓΙΑ ΜΑΡΙΝΑ - ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΑΕΡΟΔΡΟΜΙΟ"^^xsd:string .
+
+MoPT:Τ3 a MoPT:rail_route ;
+    MoPT:route_long "ΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛ"^^xsd:string .
+
+MoPT:Τ4 a MoPT:rail_route ;
+    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΝΕΟ ΦΑΛΗΡΟ"^^xsd:string .
+
+MoPT:Τ5 a MoPT:rail_route ;
+    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΒΟΥΛΑ"^^xsd:string .
+
+MoPT:Χ14 a MoPT:bus_route ;
+    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΚΗΦΙΣΙΑ"^^xsd:string .
+
+MoPT:Χ93 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ - ΑΕΡ/ΝΑΣ ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
+
+MoPT:Χ95 a MoPT:bus_route ;
+    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
+
+MoPT:Χ96 a MoPT:bus_route ;
+    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
+
+MoPT:Χ97 a MoPT:bus_route ;
+    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
+

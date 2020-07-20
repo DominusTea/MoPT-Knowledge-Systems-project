@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/knowsys_project/ontologies/moPT#"
+     xml:base="http://www.semanticweb.org/knowsys_project/ontologies/moPT"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:MoPT="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasRoute">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasTrip"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">A trip corresponds to 1 route (eg a metro line or a bus route)</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasTrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasTrip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+        <rdfs:comment xml:lang="en">A route (eg. a metro line, or a bus route ) has a trip</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#departure_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#departure_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_short -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_short">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_address">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A stop&apos;s address</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment xml:lang="en">Each stop has a unique stop id</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_location">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A stop&apos;s location stored using the geo namespace prefix from &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#aerialLift_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#aerialLift_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=6 (Aerial lift, suspended cable car (e.g., gondola lift, aerial tramway). Cable transport where cabins, cars, gondolas or open chairs are suspended by means of one or more cables)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=3 ( Bus. Used for short- and long-distance bus routes)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#cableTram_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#cableTram_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=5 (Cable tram. Used for street-level rail cars where the cable runs beneath the vehicle, e.g., cable car in San Francisco)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=4 (Ferry. Used for short- and long-distance boat service)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#funicular_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#funicular_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=7 (Funicular. Any rail system designed for steep inclines)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=1 (Subway, Metro. Any underground rail system within a metropolitan area)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#monorail_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#monorail_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=12 (Monorail. Railway in which the track consists of a single rail or a beam)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=2 (Rail. Used for intercity or long-distance travel)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#aerialLift_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#cableTram_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#funicular_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#monorail_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trolleyBus_route"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=0 (Tram, Streetcar, Light rail. Any light rail or street level system within a metropolitan area)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trolleyBus_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trolleyBus_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">GTFS route_type=11 (Trolleybus. Electric buses that draw power from overhead wires using poles)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#test_aerialLift_route -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#test_aerialLift_route">
+        <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#aerialLift_route"/>
+        <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1232</MoPT:route_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#aerialLift_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#cableTram_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#funicular_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#monorail_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trolleyBus_route"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
