@@ -19,5 +19,11 @@ download:
 clear:
 	rm temp/*
 
-build:
-	python3 setup.py
+source/scripts/routes-basic.py:
+	python3 source/scripts/routes-basic.py
+
+source/scripts/stops-basic: 
+	python3 source/scripts/stops-basic.py
+
+build: source/scripts/routes-basic.py source/scripts/stops-basic.py
+	#python3 setup.py

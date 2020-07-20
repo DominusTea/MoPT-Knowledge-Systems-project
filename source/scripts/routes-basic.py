@@ -5,7 +5,7 @@ routes information should be in source/data/routes.txt
 output file routes-basic.(??) will be placed in source/Abox
 '''
 
-from rdflib import Graph, Literal, RDF, URIRef, Namespace
+from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
 from rdflib.namespace import FOAF , XSD
 import os.path
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     #MoPT = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#")
     MoPT = Namespace("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#")
     route_long_name = MoPT.route_long #URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_long")
-    print(type(MoPT))
+    route_id_URI = MoPT.route_id
     # Create  RDF URI nodes for every route type to use as the subject for multiple triples
 
     routes = MoPT.routes
@@ -64,19 +64,22 @@ if __name__ == '__main__':
         else:
             route_type_URI = routeType_list[int(route_type -3)]
 
-        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#" + route_short)
+        #name URI for this route using its short name (i.e buss with number 131 will have
+        #URI: http://www.semanticweb.org/knowsys_project/ontologies/MoPT#131)
+        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_" + route_short)
 
         g.add((this_URI, RDF.type, route_type_URI))
         g.add((this_URI, route_long_name, Literal(route_long, datatype=XSD.string)))
-
+        g.add((this_URI, route_id_URI, Literal(route_id, datatype=XSD.string)))
+        #since no Reasoning takes place we also have to assert that this particular route_type route is a route
+        g.add((this_URI, RDF.type, routes))
 
 
         #read next line
         line=f.readline()
 
     #bind namespaces to prefices for more readable  output
-
     g.bind("MoPT", MoPT)
 
     #serialzie to file using prefered format
-    g.serialize(destination="source/Abox/routes-basic.txt", format="turtle")
+    g.serialize(destination="source/Abox/routes-basic.txt", format="xml")

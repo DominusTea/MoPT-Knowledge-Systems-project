@@ -82,6 +82,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_long">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_short -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_short">
@@ -121,6 +130,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A stop&apos;s name</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#time"/>
@@ -156,6 +175,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#boardingArea_stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#boardingArea_stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:comment xml:lang="en">GTFS location_type=4 (A specific location on a platform, where passengers can board and/or alight vehicles).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route">
@@ -174,6 +202,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#entranceExit_stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#entranceExit_stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:comment xml:lang="en">GTFS location_type = 2 ( A location where passengers can enter or exit a station from the street. If an entrance/exit belongs to multiple stations, it can be linked by pathways to both, but the data provider must pick one of them as parent ) 
+Pathways are not used/mplemented in our database.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ferry_route">
@@ -188,6 +226,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#funicular_route">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
         <rdfs:comment xml:lang="en">GTFS route_type=7 (Funicular. Any rail system designed for steep inclines)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#genericNode_stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#genericNode_stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:comment xml:lang="en">GTFS location_type = 3 (A location within a station, not matching any other location_type, which can be used to link together pathways define in pathways.txt. (!) Not implemented or used in our database (!) )</rdfs:comment>
     </owl:Class>
     
 
@@ -238,9 +285,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#station_stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#station_stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:comment xml:lang="en">GTFS location_type =  1 (A physical structure or area that contains one or more platform),</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopPlatform_stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopPlatform_stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+        <rdfs:comment xml:lang="en">GTFS location_type = 0 ( A location where passengers board or disembark from a transit vehicle. Is called a platform when defined within a parent_station).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#boardingArea_stop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#entranceExit_stop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#genericNode_stop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#station_stop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopPlatform_stop"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
     
 
 

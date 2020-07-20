@@ -1,750 +1,1500 @@
-@prefix MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-MoPT:021 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΝΙΓΓΟΣ - ΓΚΥΖΗ"^^xsd:string .
-
-MoPT:022 a MoPT:bus_route ;
-    MoPT:route_long "Ν. ΚΥΨΕΛΗ - ΜΑΡΑΣΛΕΙΟΣ"^^xsd:string .
-
-MoPT:024 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΣΤ. ΑΤΤΙΚΗΣ - ΣΤ. ΛΑΡΙΣΗΣ (ΚΥΚΛΙΚΗ"^^xsd:string .
-
-MoPT:025 a MoPT:bus_route ;
-    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΠΡΟΦ. ΔΑΝΙΗΛ"^^xsd:string .
-
-MoPT:026 a MoPT:bus_route ;
-    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΒΟΤΑΝΙΚΟΣ"^^xsd:string .
-
-MoPT:027 a MoPT:bus_route ;
-    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ - ΟΡΦΕΩΣ"^^xsd:string .
-
-MoPT:032 a MoPT:bus_route ;
-    MoPT:route_long "ΓΟΥΔΗ - ΜΑΡΑΣΛΕΙΟΣ (ΣΧΟΛΙΚΗ)"^^xsd:string .
-
-MoPT:035 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΠΕΤΡΑΛΩΝΑ - ΤΑΥΡΟΣ"^^xsd:string .
-
-MoPT:036 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ.ΚΑΤΕΧΑΚΗ - ΣΤ.ΠΑΝΟΡΜΟΥ - ΓΑΛΑΤΣΙ - ΚΥΨΕΛΗ (ΚΥΚ)"^^xsd:string .
-
-MoPT:040 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΣΥΝΤΑΓΜΑ"^^xsd:string .
-
-MoPT:046 a MoPT:bus_route ;
-    MoPT:route_long "ΜΟΥΣΕΙΟ - ΕΛΛΗΝΟΡΩΣΩΝ"^^xsd:string .
-
-MoPT:049 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΟΜΟΝΟΙΑ"^^xsd:string .
-
-MoPT:051 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΣΤΑΘ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ"^^xsd:string .
-
-MoPT:054 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΡΙΣΣΟΣ - ΑΚΑΔΗΜΙΑ - ΜΕΤΑΜΟΡΦΩΣΗ"^^xsd:string .
-
-MoPT:057 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΛΟΦΟΣ ΣΚΟΥΖΕ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:060 a MoPT:bus_route ;
-    MoPT:route_long "ΜΟΥΣΕΙΟ - ΑΚΑΔΗΜΙΑ - ΛΥΚΑΒΗΤΤΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:1 a MoPT:tram_route ;
-    MoPT:route_long "ΠΛΑΤ. ΑΤΤΙΚΗΣ - ΤΖΙΤΖΙΦΙΕΣ - ΜΟΣΧΑΤΟ"^^xsd:string .
-
-MoPT:10 a MoPT:tram_route ;
-    MoPT:route_long "ΤΖΙΤΖΙΦΙΕΣ - ΧΑΛΑΝΔΡΙ"^^xsd:string .
-
-MoPT:100 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΚΟΛΩΝΑΚΙ - ΑΓΟΡΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:101 a MoPT:bus_route ;
-    MoPT:route_long "ΑΛΙΜΟΣ - ΕΛΛΗNIKO"^^xsd:string .
-
-MoPT:106 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:109 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΝΩ ΚΑΛΑΜΑΚΙ"^^xsd:string .
-
-MoPT:11 a MoPT:tram_route ;
-    MoPT:route_long "Α. ΠΑΤΗΣΙΑ - Ν. ΠΑΓΚΡΑΤΙ - Ν. ΕΛΒΕΤΙΑ"^^xsd:string .
-
-MoPT:112 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΣΤΑΘ. ΔΑΦΝΗΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:12 a MoPT:tram_route ;
-    MoPT:route_long "ΖΑΠΠΕΙΟ - ΠΕΡΙΣΤΕΡΙ"^^xsd:string .
-
-MoPT:120 a MoPT:bus_route ;
-    MoPT:route_long "ΓΛΥΦΑΔΑ - ΒΑΡΗ  - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ"^^xsd:string .
-
-MoPT:122 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΛΛΗΝΙΚΟ - ΣΑΡΩΝΙΔΑ"^^xsd:string .
-
-MoPT:123 a MoPT:bus_route ;
-    MoPT:route_long "ΣΑΡΩΝΙΔΑ - ΑΝΑΒΥΣΣΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:126 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΛ. ΦΑΛΗΡΟ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:130 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Ν. ΣΜΥΡΝΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:131 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΑΦΝΗΣ - ΑΜΑΞ/ΣΙΟ  ΑΓ. ΔΗΜΗΤΡΙΟΥ"^^xsd:string .
-
-MoPT:136 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ Ν. ΣΜΥΡΝΗ Β - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:137 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ Ν. ΣΜΥΡΝΗ Α - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:14 a MoPT:tram_route ;
-    MoPT:route_long "ΛΑΜΠΡΙΝΗ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΓΗΡΟΚΟΜΕΙΟ"^^xsd:string .
-
-MoPT:140 a MoPT:bus_route ;
-    MoPT:route_long "ΠΟΛΥΓΩΝΟ - ΓΛΥΦΑΔΑ"^^xsd:string .
-
-MoPT:141 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΑΦΝΗΣ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:142 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΑΡΓΥΡΟΥΠΟΛΗ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:15 a MoPT:tram_route ;
-    MoPT:route_long "ΠΕΤΡΑΛΩΝΑ - ΔΙΚΑΣΤΗΡΙΑ - ΕΛ. ΒΕΝΙΖΕΛΟΥ"^^xsd:string .
-
-MoPT:154 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΛΛΗΝΙΚΟ - ΑΝΩ ΓΛΥΦΑΔΑ (ΠΑΝΟΡΑΜΑ ΒΟΥΛΑΣ)"^^xsd:string .
-
-MoPT:155 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΛΗΝΙΚΟ - ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:16 a MoPT:tram_route ;
-    MoPT:route_long "ΑΓ. ΙΩΑΝΝΗΣ ΡΕΝΤΗΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:162 a MoPT:bus_route ;
-    MoPT:route_long "ΒΟΥΛΑ - ΠΑΝΟΡΑΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:164 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ.ΑΓ.ΔΗΜΗΤΡΙΟΣ - Κ. ΗΛ/ΠΟΛΗ - ΑΡΓ/ΠΟΛΗ - ΤΕΡΨΙΘΕΑ"^^xsd:string .
-
-MoPT:165 a MoPT:bus_route ;
-    MoPT:route_long "ΤΕΡΨΙΘΕΑ - ΑΡΓΥΡΟΥΠΟΛΗ - ΣΥΝΤΑΓΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:17 a MoPT:tram_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΓΕΩΡΓΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:171 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΒΑΡΚΙΖΑ"^^xsd:string .
-
-MoPT:18 a MoPT:tram_route ;
-    MoPT:route_long "ΜΟΥΣΕΙΟ - ΧΑΛΑΝΔΡΙ (ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ)"^^xsd:string .
-
-MoPT:19 a MoPT:tram_route ;
-    MoPT:route_long "ΜΟΥΣΕΙΟ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ (ΣΙΔΕΡΑ)"^^xsd:string .
-
-MoPT:2 a MoPT:tram_route ;
-    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΠΑΓΚΡΑΤΙ - ΚΑΙΣΑΡΙΑΝΗ"^^xsd:string .
-
-MoPT:20 a MoPT:tram_route ;
-    MoPT:route_long "Ν. ΦΑΛΗΡΟ - ΚΑΣΤΕΛΛΑ - ΔΡΑΠΕΤΣΩΝΑ"^^xsd:string .
-
-MoPT:201 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΡΓΥΡΟΥΠΟΛΗ"^^xsd:string .
-
-MoPT:203 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΡΕΑΣ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:204 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΡ. ΣΑΚΕΤΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:206 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΑΦΝΗ - ΑΓΙΑ ΜΑΡΙΝΑ"^^xsd:string .
-
-MoPT:209 a MoPT:bus_route ;
-    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ - ΠΛΑΤΕΙΑ ΣΥΝΤΑΓΜΑΤΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:21 a MoPT:tram_route ;
-    MoPT:route_long "ΝΙΚΑΙΑ - Π. ΡΑΛΛΗ - ΟΜΟΝΟΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:212 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΔΑΦΝΗΣ - ΒΥΡΩΝΑΣ - ΚΑΡΕΑΣ"^^xsd:string .
-
-MoPT:217 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)"^^xsd:string .
-
-MoPT:218 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΣΤ. ΔΑΦΝΗΣ"^^xsd:string .
-
-MoPT:219 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΚΑΛΛΙΘΕΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ"^^xsd:string .
-
-MoPT:220 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ ΙΛΙΣΙΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:221 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:224 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΙΣΑΡΙΑΝΗ - ΕΛ. ΒΕΝΙΖΕΛΟΥ"^^xsd:string .
-
-MoPT:227 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ ΠΕΤΡΑΛΩΝΑ - ΑΓ. ΑΡΤΕΜΙΟΣ"^^xsd:string .
-
-MoPT:229 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)"^^xsd:string .
-
-MoPT:230 a MoPT:bus_route ;
-    MoPT:route_long "ΑΚΡΟΠΟΛΗ - ΖΩΓΡΑΦΟΥ"^^xsd:string .
-
-MoPT:235 a MoPT:bus_route ;
-    MoPT:route_long "ΖΩΓΡΑΦΟΥ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:237 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΑΦΝΗ - ΑΝΩ ΗΛΙΟΥΠΟΛΗ"^^xsd:string .
-
-MoPT:24 a MoPT:tram_route ;
-    MoPT:route_long "ΠΕΤΡΟΥΠΟΛΗ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:242 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΤΕΧΝΕΙΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ) ΣΧΟΛ."^^xsd:string .
-
-MoPT:25 a MoPT:tram_route ;
-    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:250 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΣΤ. ΕΥΑΓΓΕΛΙΣΜΟΥ (ΚΥΚΛΙΚΗ) ΣΧ"^^xsd:string .
-
-MoPT:3 a MoPT:tram_route ;
-    MoPT:route_long "Ν. ΦΙΛΑΔΕΛΦΕΙΑ - ΑΝΩ ΠΑΤΗΣΙΑ - ΝΕΟ ΨΥΧΙΚΟ"^^xsd:string .
-
-MoPT:300 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΤΖΑΝΕΙΟ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:301 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΝΤΕΛΗ - ΣΤ. ΠΑΛΛΗΝΗ - ΔΗΜΑΡΧΕΙΟ ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:301Β a MoPT:bus_route ;
-    MoPT:route_long "ΤΟΠΙΚΗ ΑΝΘΟΥΣΑΣ - ΝΤΡΑΦΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:302 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:304 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΒΡΑΥΡΩΝΑ)"^^xsd:string .
-
-MoPT:305 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΑΓ. ΝΙΚΟΛΑΟΣ)"^^xsd:string .
-
-MoPT:306 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ-ΔΗΜΑΡΧ. ΓΕΡΑΚΑ-ΜΠΑΛΑΝΑ ΓΕΡΑΚΑ"^^xsd:string .
-
-MoPT:307 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ - ΓΛ. ΝΕΡΑ - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ"^^xsd:string .
-
-MoPT:308 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΠΑΙΑΝΙΑ - ΚΟΡΩΠΙ"^^xsd:string .
-
-MoPT:309 a MoPT:bus_route ;
-    MoPT:route_long "ΚΟΡΩΠΙ - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ - ΚΟΡΩΠΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:314 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΝΟΜ. ΑΝ. ΑΤΤΙΚΗΣ - ΠΑΛΛΗΝΗ"^^xsd:string .
-
-MoPT:316 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ"^^xsd:string .
-
-MoPT:319 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΔΟΥΚ. ΠΛΑΚ.- ΠΑΛΛΗΝΗ-ΕΚΠΤ. ΧΩΡΙΟ-ΣΠΑΤΑ"^^xsd:string .
-
-MoPT:322 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΝΙΚΟΛΑΟΣ - ΒΡΑΥΡΩΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:323 a MoPT:bus_route ;
-    MoPT:route_long "ΒΡΑΥΡΩΝΑ - ΑΓ. ΝΙΚΟΛΑΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:324 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΘΟΥΣΑ - ΠΑΛΛΗΝΗ - ΚΑΝΤΖΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:330 a MoPT:bus_route ;
-    MoPT:route_long "ΚΟΡΩΠΙ - ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:4 a MoPT:tram_route ;
-    MoPT:route_long "ΑΝΩ ΚΥΨΕΛΗ - ΑΓ. ΑΡΤΕΜΙΟΣ - ΣΤ. ΜΕΤΡΟ ΑΓ. ΙΩΑΝΝΗΣ"^^xsd:string .
-
-MoPT:402 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΔΡΟΣΟ"^^xsd:string .
-
-MoPT:404 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΘΝ.ΑΜΥΝΑΣ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ"^^xsd:string .
-
-MoPT:405 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΧΑΛΑΝΔΡΙ - ΜΕΛΙΣΣΙΑ"^^xsd:string .
-
-MoPT:406 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜ. - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΣΤ. ΠΛΑΚΕΝΤΙΑΣ"^^xsd:string .
-
-MoPT:407 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ-ΝΕΑ ΖΩΗ - ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ"^^xsd:string .
-
-MoPT:409 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΠΑΓΟΥ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ-ΣΤ.ΚΑΤΕΧΑΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:410 a MoPT:bus_route ;
-    MoPT:route_long "Ο.Α.Κ.Α - ΑΝΩ ΜΕΛΙΣΣΙΑ  (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:411 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΣΙΣΜΑΝΟΓΛΕΙΟ - ΧΑΛΑΝΔΡΙ"^^xsd:string .
-
-MoPT:413 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΠΑΓΟΥ - ΣΤ. ΚΑΤΕΧΑΚΗ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:416 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΧΟΛΑΡΓΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:418 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΣΧΟΛ. ΧΟΛΑΡΓΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:420 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΑΝΑΡΓΥΡΟΙ (Μέσω ΚΗΦΙΣΟΥ)"^^xsd:string .
-
-MoPT:421 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΑΓ. ΠΑΡΑΣΚΕΥΗ"^^xsd:string .
-
-MoPT:444 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΕΙΡΗΝΗ - ΓΑΛΑΤΣΙ - ΣΤ. ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:446 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΑΘ. ΑΜΑΡΟΥΣΙΟΥ - ΝΟΣΟΚ. ΠΕΝΤΕΛΗΣ (Μέσω ΠΙΚΠΑ)"^^xsd:string .
-
-MoPT:447 a MoPT:bus_route ;
-    MoPT:route_long "ΧΑΛΑΝΔΡΙ - ΑΝΩ ΒΡΙΛΗΣΣΙΑ"^^xsd:string .
-
-MoPT:5 a MoPT:tram_route ;
-    MoPT:route_long "ΛΑΜΠΡΙΝΗ - ΠΛ. ΣΥΝΤΑΓΜΑΤΟΣ - ΤΖΙΤΖΙΦΙΕΣ"^^xsd:string .
-
-MoPT:500 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ"^^xsd:string .
-
-MoPT:501 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΥΚΗ - ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:504 a MoPT:bus_route ;
-    MoPT:route_long "ΘΡΑΚΟΜΑΚΕΔΟΝΕΣ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:527 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΥΚΗ - ΝΕΡΑΤΖΙΩΤΙΣΣΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:541 a MoPT:bus_route ;
-    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ - ΣΤ. ΑΜΑΡΟΥΣΙΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:543 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΑΘΜΟΣ ΚΗΦΙΣΙΑΣ - ΝΟΣΟΚ. ΑΓ. ΑΝΑΡΓΥΡΟΙ"^^xsd:string .
-
-MoPT:550 a MoPT:bus_route ;
-    MoPT:route_long "Π. ΦΑΛΗΡΟ - ΚΗΦΙΣΙΑ"^^xsd:string .
-
-MoPT:560 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΚΗΦΙΣΙΑ - ΜΟΡΤΕΡΟ - Ν. ΕΡΥΘΡΑΙΑ"^^xsd:string .
-
-MoPT:6 a MoPT:tram_route ;
-    MoPT:route_long "ΙΠΠΟΚΡΑΤΟΥΣ -ΚΟΣΜΑΣ ΑΙΤΩΛΟΣ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ"^^xsd:string .
-
-MoPT:602 a MoPT:bus_route ;
-    MoPT:route_long "Ν. ΙΩΝΙΑ - ΚΑΛΟΓΡΕΖΑ - ΣΤΑΘ. ΠΑΝΟΡΜΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:604 a MoPT:bus_route ;
-    MoPT:route_long "ΝΟΣ. ΑΓ. ΑΝΑΡΓΥΡΩΝ - ΣΤ. ΜΕΤΑΜΟΡΦΩΣΗΣ - ΝΕΑ ΙΩΝΙΑ"^^xsd:string .
-
-MoPT:605 a MoPT:bus_route ;
-    MoPT:route_long " ΠΕΡΙΣΣΟΣ - ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:608 a MoPT:bus_route ;
-    MoPT:route_long "ΓΑΛΑΤΣΙ - ΑΚΑΔΗΜΙΑ - ΝΕΚΡ. ΖΩΓΡΑΦΟΥ"^^xsd:string .
-
-MoPT:610 a MoPT:bus_route ;
-    MoPT:route_long "ΦΙΛΟΘΕΗ - ΑΜΠΕΛΟΚΗΠΟΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:619 a MoPT:bus_route ;
-    MoPT:route_long "ΜΕΤΑΜΟΡΦΩΣΗ-Ν.ΦΙΛΑΔΕΛΦΕΙΑ-ΣΤ.ΑΝΩ ΠΑΤΗΣΙΩΝ(ΚΥΚΛΙΚ)"^^xsd:string .
-
-MoPT:622 a MoPT:bus_route ;
-    MoPT:route_long "ΓΟΥΔΗ - ΑΝΩ ΓΑΛΑΤΣΙ"^^xsd:string .
-
-MoPT:640 a MoPT:bus_route ;
-    MoPT:route_long "ΤΟΠΙΚΗ ΗΡΑΚΛΕΙΟΥ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:642 a MoPT:bus_route ;
-    MoPT:route_long "ΗΡΑΚΛΕΙΟ - ΑΓ.ΝΕΚΤΑΡΙΟΣ - ΠΕΥΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:651 a MoPT:bus_route ;
-    MoPT:route_long "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:653 a MoPT:bus_route ;
-    MoPT:route_long "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:700 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓΙΑ ΤΡΙΑΔΑ ΠΕΤΡΟΥΠΟΛΗ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚ)"^^xsd:string .
-
-MoPT:701 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:703 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ-ΑΓ. ΑΝΑΡΓΥΡΟΙ-ΑΓ. ΕΛΕΥΘΕΡΙΟΣ (Μέσω ΘΗΒΩΝ)"^^xsd:string .
-
-MoPT:704 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΠΛ. ΑΓ. ΑΝΑΡΓΥΡΩΝ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:705 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΜΑΤΕΡΟ-ΙΛΙΟΝ-ΠΛ.ΑΓ.ΑΝΑΡΓΥΡΩΝ-ΣΤ.ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛ."^^xsd:string .
-
-MoPT:711 a MoPT:bus_route ;
-    MoPT:route_long "ΖΩΦΡΙΑ - ΑΤΤΙΚΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:712 a MoPT:bus_route ;
-    MoPT:route_long "ΑΧΑΡΝΑΙ - ΕΡΓ. ΠΟΛ/ΚΙΕΣ - Α. ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:713 a MoPT:bus_route ;
-    MoPT:route_long "Α. ΛΙΟΣΙΑ (ΠΑΝΟΡΑΜΑ) - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ(ΑΝΩ ΛΙΟΣΙΑ)"^^xsd:string .
-
-MoPT:719 a MoPT:bus_route ;
-    MoPT:route_long "ΚΗΠΟΥΠΟΛΗ - ΠΑΛΑΤΙΑΝΗ - ΣΤ. ΛΑΡΙΣΗΣ(ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:721 a MoPT:bus_route ;
-    MoPT:route_long "ΑΧΑΡΝΑΙ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:723 a MoPT:bus_route ;
-    MoPT:route_long "ΦΥΛΗ - ΑΝΩ ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:724 a MoPT:bus_route ;
-    MoPT:route_long "ΘΡΑΚ/ΔΟΝΕΣ - ΑΧΑΡΝΑΙ - Ν. ΙΩΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:727 a MoPT:bus_route ;
-    MoPT:route_long "ΑΧΑΡΝΑΙ - ΜΕΣΟΝΥΧΙ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:730 a MoPT:bus_route ;
-    MoPT:route_long "ΛΟΦΟΣ ΑΞΙΩΜΑΤΙΚΩΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΖΩΟΔ. ΠΗΓΗ"^^xsd:string .
-
-MoPT:731 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΘΟΥΠΟΛΗ - ΣΤ. Μ. ΑΝΘΟΥΠΟΛΗ- ΑΤΤΙΚΟ ΝΟΣ-ΔΑΣΟΣ"^^xsd:string .
-
-MoPT:732 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΦΑΝΟΥΡΙΟΣ - ΑΚΑΔΗΜΙΑ - ΖΩΟΔ. ΠΗΓΗ"^^xsd:string .
-
-MoPT:735 a MoPT:bus_route ;
-    MoPT:route_long "ΑΧΑΡΝΑΙ -ΖΕΦΥΡΙ - ΣΤ. ΚΑΤΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:740 a MoPT:bus_route ;
-    MoPT:route_long "ΟΛΥΜΠ. ΧΩΡΙΟ - ΣΚΑ- ΑΧΑΡΝΑΙ- ΑΓ.ΑΝΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:747 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΤΡΟΥΠΟΛΗ - ΠΑΝΟΡΑΜΑ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:748 a MoPT:bus_route ;
-    MoPT:route_long "ΧΡΥΣΟΥΠΟΛΗ-ΑΝΘΟΥΠΟΛΗ-ΣΤ.ΠΕΡΙΣΤΕΡΙ"^^xsd:string .
-
-MoPT:750 a MoPT:bus_route ;
-    MoPT:route_long "ΑΤΤΙΚΟ ΝΟΣΟΚΟΜΕΙΟ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ - ΝΙΚΑΙΑ"^^xsd:string .
-
-MoPT:790 a MoPT:bus_route ;
-    MoPT:route_long "ΓΛΥΦΑΔΑ - ΠΕΡΙΣΤΕΡΙ (ΑΓ. ΑΝΤΩΝΙΟΣ)"^^xsd:string .
-
-MoPT:800 a MoPT:bus_route ;
-    MoPT:route_long "ΝΙΚΑΙΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:801 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΑΛΑΣΚΑ"^^xsd:string .
-
-MoPT:803 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΔΑΣΟΣ Β (Μέσω ΙΕΡΑΣ ΟΔΟΥ)"^^xsd:string .
-
-MoPT:805 a MoPT:bus_route ;
-    MoPT:route_long "ΑΣΠΡΟΠΥΡΓΟΣ - ΝΕΟΚΤΙΣΤΑ"^^xsd:string .
-
-MoPT:806 a MoPT:bus_route ;
-    MoPT:route_long "ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:807 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:809 a MoPT:bus_route ;
-    MoPT:route_long "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:810 a MoPT:bus_route ;
-    MoPT:route_long "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:811 a MoPT:bus_route ;
-    MoPT:route_long "ΧΑΪΔΑΡΙ - ΣΤ. ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:813 a MoPT:bus_route ;
-    MoPT:route_long "ΑΒΕΡΩΦ - ΠΡΟΥΣΣΗΣ"^^xsd:string .
-
-MoPT:814 a MoPT:bus_route ;
-    MoPT:route_long "ΣΧΙΣΤΟ - ΚΑΡΑΒΑΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:815 a MoPT:bus_route ;
-    MoPT:route_long "ΓΟΥΔΗ - ΤΑΥΡΟΣ"^^xsd:string .
-
-MoPT:816 a MoPT:bus_route ;
-    MoPT:route_long "ΤΑΥΡΟΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ"^^xsd:string .
-
-MoPT:817 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ"^^xsd:string .
-
-MoPT:818 a MoPT:bus_route ;
-    MoPT:route_long "ΛΙΜ. ΠΕΡΑΜΑΤΟΣ - ΑΝΩ ΠΕΡΑΜΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:819 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΡΑΜΑ - ΝΕΚΡ. ΣΧΙΣΤΟΥ"^^xsd:string .
-
-MoPT:820 a MoPT:bus_route ;
-    MoPT:route_long "ΚΕΡΑΤΣΙΝΙ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:821 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓΙΑ ΑΝΑΣΤΑΣΙΑ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:822 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΝΕΑ ΖΩΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:823 a MoPT:bus_route ;
-    MoPT:route_long " ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ- ΑΓ. ΒΑΣΙΛΕΙΟΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:824 a MoPT:bus_route ;
-    MoPT:route_long "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:825 a MoPT:bus_route ;
-    MoPT:route_long "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:826 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΓ. ΜΗΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:827 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Γ΄ ΝΕΚΡΟΤ. - ΑΣΠΡΑ ΧΩΜΑΤΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:828 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΣΠΡΑ ΧΩΜΑΤΑ - Γ΄ ΝΕΚΡΟΤ. (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:829 a MoPT:bus_route ;
-    MoPT:route_long "ΤΕΙ ΠΕΙΡΑΙΑ - ΣΤ. ΑΙΓΑΛΕΩ - ΤΕΙ ΑΘΗΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:830 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:831 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΙΓΑΛΕΩ"^^xsd:string .
-
-MoPT:832 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΥΓΕΝΕΙΑ - ΧΑΡΑΥΓΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:833 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΧΑΡΑΥΓΗ - ΕΥΓΕΝΕΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:836 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΠΑΛΑΣΚΑ"^^xsd:string .
-
-MoPT:837 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΩ ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ.  ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:838 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΡΕΝΤΗΣ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:843 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΕΡΑΜΑ"^^xsd:string .
-
-MoPT:845 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω ΘΗΒΩΝ)"^^xsd:string .
-
-MoPT:846 a MoPT:bus_route ;
-    MoPT:route_long "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:847 a MoPT:bus_route ;
-    MoPT:route_long "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:852 a MoPT:bus_route ;
-    MoPT:route_long "ΝΕΑΠΟΛΗ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:855 a MoPT:bus_route ;
-    MoPT:route_long "ΨΑΡΙ - ΑΣΠΡΟΠΥΡΓΟΣ - ΛΟΦΟΣ ΚΥΡΙΛΛΟΥ"^^xsd:string .
-
-MoPT:856 a MoPT:bus_route ;
-    MoPT:route_long "ΑΙΓΑΛΕΩ - ΥΜΗΤΤΟΣ - ΔΑΦΝΗ"^^xsd:string .
-
-MoPT:859 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΔΕΞΑΜΕΝΕΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:860 a MoPT:bus_route ;
-    MoPT:route_long "Π. ΦΑΛΗΡΟ-ΓΕΝ. ΚΡΑΤΙΚΟ ΝΙΚΑΙΑΣ-ΣΧΙΣΤΟ ΚΕΡΑΤΣΙΝΙΟΥ"^^xsd:string .
-
-MoPT:861 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ (ΟΙΚΙΣΜΟΣ ΤΙΤΑΝ)"^^xsd:string .
-
-MoPT:862 a MoPT:bus_route ;
-    MoPT:route_long "ΠΑΡΑΛΙΑ - ΑΝΩ ΕΛΕΥΣΙΝΑ"^^xsd:string .
-
-MoPT:863 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΘΡΙΑΣΙΟ ΝΟΣ. - ΜΑΝΔΡΑ"^^xsd:string .
-
-MoPT:865 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΜΑΝΔΡΑ"^^xsd:string .
-
-MoPT:866 a MoPT:bus_route ;
-    MoPT:route_long "ΑΣΠΡΟΠΥΡΓΟΣ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:871 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω Λ. ΕΘΝ.ΑΝΤΙΣΤΑΣΕΩΣ)"^^xsd:string .
-
-MoPT:875 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - Ν. ΜΩΛΟΣ ΔΡΑΠΕΤΣΩΝΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:876 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:881 a MoPT:bus_route ;
-    MoPT:route_long "ΕΛΕΥΣΙΝΑ - ΑΣΠΡΟΠΥΡΓΟΣ - ΡΟΥΠΑΚΙ"^^xsd:string .
-
-MoPT:891 a MoPT:bus_route ;
-    MoPT:route_long "ΑΙΓΑΛΕΩ - ΠΕΡΙΣΤΕΡΙ - ΣΤΑΘ. ΑΤΤΙΚΗΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:892 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΒΑΡΒΑΡΑ - ΧΑΪΔΑΡΙ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΙΛΙΟΝ"^^xsd:string .
-
-MoPT:904 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΣΤ. ΠΕΙΡΑΙΑ - ΦΡΕΑΤΤΥΔΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:906 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΚΑΛΛΙΠΟΛΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:909 a MoPT:bus_route ;
-    MoPT:route_long "ΑΓ. ΒΑΣΙΛΕΙΟΣ - ΑΓ. ΣΟΦΙΑ - ΚΡΑΤ. ΝΙΚΑΙΑΣ"^^xsd:string .
-
-MoPT:910 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ - ΤΖΙΤΖΙΦΙΕΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:911 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΑΘ. ΚΑΛΛΙΘΕΑΣ - ΙΔΡ. ΤΥΦΛΩΝ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:914 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΛΑΧΑΝΑΓΟΡΑ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:915 a MoPT:bus_route ;
-    MoPT:route_long "ΛΟΦΟΣ ΒΩΚΟΥ- ΠΡ.ΗΛΙΑΣ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:Α1 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΒΟΥΛΑ"^^xsd:string .
-
-MoPT:Α10 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ"^^xsd:string .
-
-MoPT:Α11 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ (ΜΕΣΩ ΠΑΝΟΡΑΜΑΤΟΣ)"^^xsd:string .
-
-MoPT:Α13 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΚΗΠΟΥΠΟΛΗ"^^xsd:string .
-
-MoPT:Α15 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΔΑΣΟΣ"^^xsd:string .
-
-MoPT:Α16 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΕΛΕΥΣΙΝΑ (Μέσω ΙΕΡΑΣ ΟΔΟΥ)"^^xsd:string .
-
-MoPT:Α2 a MoPT:bus_route ;
-    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΒΟΥΛΑ (Μέσω Λ. ΑΜΦΙΘΕΑΣ)"^^xsd:string .
-
-MoPT:Α3 a MoPT:bus_route ;
-    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΓΛΥΦΑΔΑ  (Μέσω ΒΟΥΛΙΑΓΜΕΝΗΣ)"^^xsd:string .
-
-MoPT:Α5 a MoPT:bus_route ;
-    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΑΝΘΟΥΣΑ"^^xsd:string .
-
-MoPT:Α7 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΟΥΡΝΑΡΗ - ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)"^^xsd:string .
-
-MoPT:Α8 a MoPT:bus_route ;
-    MoPT:route_long "ΠΟΛΥΤΕΧΝΕΙΟ - Ν. ΙΩΝΙΑ - ΜΑΡΟΥΣΙ"^^xsd:string .
-
-MoPT:Β1 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΝΩ ΓΛΥΦΑΔΑ"^^xsd:string .
-
-MoPT:Β10 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ (Μέσω ΑΡΙΣΤΟΤΕΛΟΥΣ)"^^xsd:string .
-
-MoPT:Β11 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ"^^xsd:string .
-
-MoPT:Β12 a MoPT:bus_route ;
-    MoPT:route_long "ΜΑΡΝΗ - ΑΝΩ ΛΙΟΣΙΑ"^^xsd:string .
-
-MoPT:Β15 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΠΑΛΑΤΑΚΙ"^^xsd:string .
-
-MoPT:Β18 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω Π. ΡΑΛΛΗ)"^^xsd:string .
-
-MoPT:Β2 a MoPT:bus_route ;
-    MoPT:route_long "ΑΚΑΔΗΜΙΑ - ΑΓΙΟΣ ΚΟΣΜΑΣ (Μέσω ΠΑΡΑΛΙΑΚΗΣ)"^^xsd:string .
-
-MoPT:Β5 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΑΓ. ΠΑΡΑΣΚΕΥΗ"^^xsd:string .
-
-MoPT:Β9 a MoPT:bus_route ;
-    MoPT:route_long "ΧΑΛΚΟΚΟΝΔΥΛΗ - ΜΕΤΑΜΟΡΦΩΣΗ - Ν. ΚΗΦΙΣΙΑ"^^xsd:string .
-
-MoPT:Γ10 a MoPT:bus_route ;
-    MoPT:route_long "ΑΝΑΚΑΣΑ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΠΛ. ΒΑΘΗ (ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:Γ12 a MoPT:bus_route ;
-    MoPT:route_long "ΚΑΜΑΤΕΡΟ - ΑΓ.ΝΙΚΟΛΑΟΣ-ΙΛΙΟΝ - ΠΟΛ/ΧΝΕΙΟ(ΚΥΚΛΙΚΗ)"^^xsd:string .
-
-MoPT:Γ16 a MoPT:bus_route ;
-    MoPT:route_long "ΠΛΑΤΕΙΑ ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΑΣΠΡΟΠΥΡΓΟΣ"^^xsd:string .
-
-MoPT:Γ18 a MoPT:bus_route ;
-    MoPT:route_long "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω ΓΡ. ΛΑΜΠΡΑΚΗ)"^^xsd:string .
-
-MoPT:Γ9 a MoPT:bus_route ;
-    MoPT:route_long "ΧΑΛΚΟΚΟΝΔΥΛΗ - Κ. ΜΥΛΟΣ - ΑΧΑΡΝΑΙ"^^xsd:string .
-
-MoPT:Ε14 a MoPT:bus_route ;
-    MoPT:route_long "ΣΥΝΤΑΓΜΑ - Ο.Α.Κ.Α - ΥΠ.ΠΑΙΔΕΙΑΣ (EXPRESS)"^^xsd:string .
-
-MoPT:Ε15 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΛΑΡΙΣΗΣ - ΤΕΙ ΑΘΗΝΩΝ (ΣΧΟΛΙΚΗ  EXPRESS)"^^xsd:string .
-
-MoPT:Ε90 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ (ΣΧΟΛΙΚΗ EXPRESS)"^^xsd:string .
-
-MoPT:Μ1 a MoPT:metro_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ"^^xsd:string .
-
-MoPT:Μ2 a MoPT:metro_route ;
-    MoPT:route_long "ΑΝΘΟΥΠΟΛΗ - ΣΤ.ΕΛΛΗΝΙΚΟ"^^xsd:string .
-
-MoPT:Μ3 a MoPT:metro_route ;
-    MoPT:route_long "ΑΓΙΑ ΜΑΡΙΝΑ - ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΑΕΡΟΔΡΟΜΙΟ"^^xsd:string .
-
-MoPT:Τ3 a MoPT:rail_route ;
-    MoPT:route_long "ΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛ"^^xsd:string .
-
-MoPT:Τ4 a MoPT:rail_route ;
-    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΝΕΟ ΦΑΛΗΡΟ"^^xsd:string .
-
-MoPT:Τ5 a MoPT:rail_route ;
-    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΒΟΥΛΑ"^^xsd:string .
-
-MoPT:Χ14 a MoPT:bus_route ;
-    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΚΗΦΙΣΙΑ"^^xsd:string .
-
-MoPT:Χ93 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ - ΑΕΡ/ΝΑΣ ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
-
-MoPT:Χ95 a MoPT:bus_route ;
-    MoPT:route_long "ΣΥΝΤΑΓΜΑ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
-
-MoPT:Χ96 a MoPT:bus_route ;
-    MoPT:route_long "ΠΕΙΡΑΙΑΣ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
-
-MoPT:Χ97 a MoPT:bus_route ;
-    MoPT:route_long "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)"^^xsd:string .
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:MoPT="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_140">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΟΛΥΓΩΝΟ - ΓΛΥΦΑΔΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_500">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_622">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">622-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΟΥΔΗ - ΑΝΩ ΓΑΛΑΤΣΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_407">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ-ΝΕΑ ΖΩΗ - ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">407-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_713">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α. ΛΙΟΣΙΑ (ΠΑΝΟΡΑΜΑ) - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ(ΑΝΩ ΛΙΟΣΙΑ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">713-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_703">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ-ΑΓ. ΑΝΑΡΓΥΡΟΙ-ΑΓ. ΕΛΕΥΘΕΡΙΟΣ (Μέσω ΘΗΒΩΝ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">703-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_101">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΛΙΜΟΣ - ΕΛΛΗNIKO</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_723">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">723-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΦΥΛΗ - ΑΝΩ ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_740">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΛΥΜΠ. ΧΩΡΙΟ - ΣΚΑ- ΑΧΑΡΝΑΙ- ΑΓ.ΑΝΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">740-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_805">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">805-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΣΠΡΟΠΥΡΓΟΣ - ΝΕΟΚΤΙΣΤΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_748">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΧΡΥΣΟΥΠΟΛΗ-ΑΝΘΟΥΠΟΛΗ-ΣΤ.ΠΕΡΙΣΤΕΡΙ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">748-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_653">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Β (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">653-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_413">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΠΑΓΟΥ - ΣΤ. ΚΑΤΕΧΑΚΗ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_828">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΣΠΡΑ ΧΩΜΑΤΑ - Γ΄ ΝΕΚΡΟΤ. (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">828-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_162">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">162-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΒΟΥΛΑ - ΠΑΝΟΡΑΜΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_832">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΕΥΓΕΝΕΙΑ - ΧΑΡΑΥΓΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">832-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_818">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">818-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΛΙΜ. ΠΕΡΑΜΑΤΟΣ - ΑΝΩ ΠΕΡΑΜΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_831">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΙΓΑΛΕΩ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">831-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_712">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">712-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΧΑΡΝΑΙ - ΕΡΓ. ΠΟΛ/ΚΙΕΣ - Α. ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_100">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΚΟΛΩΝΑΚΙ - ΑΓΟΡΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_21">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΙΚΑΙΑ - Π. ΡΑΛΛΗ - ΟΜΟΝΟΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_892">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΒΑΡΒΑΡΑ - ΧΑΪΔΑΡΙ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΙΛΙΟΝ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">892-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_806">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">806-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_2">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΚΥΨΕΛΗ - ΠΑΓΚΡΑΤΙ - ΚΑΙΣΑΡΙΑΝΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_833">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">833-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΧΑΡΑΥΓΗ - ΕΥΓΕΝΕΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_826">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">826-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΓ. ΜΗΝΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_021">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">021-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΝΙΓΓΟΣ - ΓΚΥΖΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_891">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΙΓΑΛΕΩ - ΠΕΡΙΣΤΕΡΙ - ΣΤΑΘ. ΑΤΤΙΚΗΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">891-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_727">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΧΑΡΝΑΙ - ΜΕΣΟΝΥΧΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">727-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_816">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΑΥΡΟΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">816-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_801">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">801-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΠΑΛΑΣΚΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_550">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">550-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Π. ΦΑΛΗΡΟ - ΚΗΦΙΣΙΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_301">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΝΤΕΛΗ - ΣΤ. ΠΑΛΛΗΝΗ - ΔΗΜΑΡΧΕΙΟ ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">301-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β11">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β11-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_242">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">242-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΤΕΧΝΕΙΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ) ΣΧΟΛ.</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β18">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β18-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω Π. ΡΑΛΛΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_651">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Α (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">651-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_131">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΑΦΝΗΣ - ΑΜΑΞ/ΣΙΟ  ΑΓ. ΔΗΜΗΤΡΙΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_418">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΣΧΟΛ. ΧΟΛΑΡΓΟΥ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_036">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ.ΚΑΤΕΧΑΚΗ - ΣΤ.ΠΑΝΟΡΜΟΥ - ΓΑΛΑΤΣΙ - ΚΥΨΕΛΗ (ΚΥΚ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">036-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β1">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΝΩ ΓΛΥΦΑΔΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β1-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Χ96">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Χ96-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_642">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">642-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΗΡΑΚΛΕΙΟ - ΑΓ.ΝΕΚΤΑΡΙΟΣ - ΠΕΥΚΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α10">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α10-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_541">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">541-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΕΤΑΜΟΡΦΩΣΗ - ΣΤ. ΑΜΑΡΟΥΣΙΟΥ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_024">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">024-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΣΤ. ΑΤΤΙΚΗΣ - ΣΤ. ΛΑΡΙΣΗΣ (ΚΥΚΛΙΚΗ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Τ5">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΥΝΤΑΓΜΑ - ΒΟΥΛΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Τ5-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Ε14">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ε14-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΥΝΤΑΓΜΑ - Ο.Α.Κ.Α - ΥΠ.ΠΑΙΔΕΙΑΣ (EXPRESS)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β5">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΛΑΡΙΣΗΣ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΑΓ. ΠΑΡΑΣΚΕΥΗ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β5-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_130">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - Ν. ΣΜΥΡΝΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">130-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_309">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">309-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΟΡΩΠΙ - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ - ΚΟΡΩΠΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_025">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">025-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΙΠΠΟΚΡΑΤΟΥΣ - ΠΡΟΦ. ΔΑΝΙΗΛ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_843">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">843-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΠΕΡΑΜΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_640">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΟΠΙΚΗ ΗΡΑΚΛΕΙΟΥ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_305">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">305-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΑΓ. ΝΙΚΟΛΑΟΣ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_836">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΠΑΛΑΣΚΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">836-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_819">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΡΑΜΑ - ΝΕΚΡ. ΣΧΙΣΤΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">819-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_409">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">409-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΠΑΓΟΥ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ-ΣΤ.ΚΑΤΕΧΑΚΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_730">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΛΟΦΟΣ ΑΞΙΩΜΑΤΙΚΩΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΖΩΟΔ. ΠΗΓΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">730-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Τ3">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Τ3-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_18">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΟΥΣΕΙΟ - ΧΑΛΑΝΔΡΙ (ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Χ97">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Χ97-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_829">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">829-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΕΙ ΠΕΙΡΑΙΑ - ΣΤ. ΑΙΓΑΛΕΩ - ΤΕΙ ΑΘΗΝΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_856">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΙΓΑΛΕΩ - ΥΜΗΤΤΟΣ - ΔΑΦΝΗ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">856-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_120">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΛΥΦΑΔΑ - ΒΑΡΗ  - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_700">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">700-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓΙΑ ΤΡΙΑΔΑ ΠΕΤΡΟΥΠΟΛΗ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_4">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΚΥΨΕΛΗ - ΑΓ. ΑΡΤΕΜΙΟΣ - ΣΤ. ΜΕΤΡΟ ΑΓ. ΙΩΑΝΝΗΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_817">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_446">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΑΘ. ΑΜΑΡΟΥΣΙΟΥ - ΝΟΣΟΚ. ΠΕΝΤΕΛΗΣ (Μέσω ΠΙΚΠΑ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α8">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α8-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΟΛΥΤΕΧΝΕΙΟ - Ν. ΙΩΝΙΑ - ΜΑΡΟΥΣΙ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_721">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΧΑΡΝΑΙ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α16">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α16-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΕΛΕΥΣΙΝΑ (Μέσω ΙΕΡΑΣ ΟΔΟΥ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Γ9">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΧΑΛΚΟΚΟΝΔΥΛΗ - Κ. ΜΥΛΟΣ - ΑΧΑΡΝΑΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Γ9-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_106">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_204">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΡ. ΣΑΚΕΤΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_504">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">504-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΘΡΑΚΟΜΑΚΕΔΟΝΕΣ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_026">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΙΠΠΟΚΡΑΤΟΥΣ - ΒΟΤΑΝΙΚΟΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">026-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_813">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">813-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΒΕΡΩΦ - ΠΡΟΥΣΣΗΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_859">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΔΕΞΑΜΕΝΕΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">859-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_822">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">822-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΝΕΑ ΖΩΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_218">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΣΤ. ΔΑΦΝΗΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_838">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΡΕΝΤΗΣ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_866">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΣΠΡΟΠΥΡΓΟΣ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">866-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_814">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΧΙΣΤΟ - ΚΑΡΑΒΑΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">814-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_212">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">212-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΜΕΤΡΟ ΔΑΦΝΗΣ - ΒΥΡΩΝΑΣ - ΚΑΡΕΑΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_815">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">815-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΟΥΔΗ - ΤΑΥΡΟΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_229">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">229-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_825">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">825-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_701">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_824">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">824-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Γ12">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΜΑΤΕΡΟ - ΑΓ.ΝΙΚΟΛΑΟΣ-ΙΛΙΟΝ - ΠΟΛ/ΧΝΕΙΟ(ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Γ12-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β9">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β9-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΧΑΛΚΟΚΟΝΔΥΛΗ - ΜΕΤΑΜΟΡΦΩΣΗ - Ν. ΚΗΦΙΣΙΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_14">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΛΑΜΠΡΙΝΗ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΓΗΡΟΚΟΜΕΙΟ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_319">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΜΕΤΡΟ ΔΟΥΚ. ΠΛΑΚ.- ΠΑΛΛΗΝΗ-ΕΚΠΤ. ΧΩΡΙΟ-ΣΠΑΤΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_046">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΟΥΣΕΙΟ - ΕΛΛΗΝΟΡΩΣΩΝ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">046-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_747">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">747-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΤΡΟΥΠΟΛΗ - ΠΑΝΟΡΑΜΑ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_827">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - Γ΄ ΝΕΚΡΟΤ. - ΑΣΠΡΑ ΧΩΜΑΤΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_881">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΕΥΣΙΝΑ - ΑΣΠΡΟΠΥΡΓΟΣ - ΡΟΥΠΑΚΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">881-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β2">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΚΑΔΗΜΙΑ - ΑΓΙΟΣ ΚΟΣΜΑΣ (Μέσω ΠΑΡΑΛΙΑΚΗΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β2-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_830">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΒΑΡΒΑΡΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">830-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_405">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΧΑΛΑΝΔΡΙ - ΜΕΛΙΣΣΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_447">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΧΑΛΑΝΔΡΙ - ΑΝΩ ΒΡΙΛΗΣΣΙΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">447-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α15">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΛΑΡΙΣΗΣ - ΔΑΣΟΣ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α15-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Χ95">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΥΝΤΑΓΜΑ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Χ95-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_837">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">837-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ.  ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_711">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">711-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΖΩΦΡΙΑ - ΑΤΤΙΚΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_227">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">227-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΠΕΤΡΑΛΩΝΑ - ΑΓ. ΑΡΤΕΜΙΟΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_911">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΑΘ. ΚΑΛΛΙΘΕΑΣ - ΙΔΡ. ΤΥΦΛΩΝ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">911-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_619">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΕΤΑΜΟΡΦΩΣΗ-Ν.ΦΙΛΑΔΕΛΦΕΙΑ-ΣΤ.ΑΝΩ ΠΑΤΗΣΙΩΝ(ΚΥΚΛΙΚ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α1">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΒΟΥΛΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α1-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_302">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">302-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_845">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">845-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω ΘΗΒΩΝ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Ε90">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ (ΣΧΟΛΙΚΗ EXPRESS)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ε90-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_914">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">914-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΛΑΧΑΝΑΓΟΡΑ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Γ10">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΑΚΑΣΑ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΠΛ. ΒΑΘΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Γ10-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α5">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α5-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΚΑΔΗΜΙΑ - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΑΝΘΟΥΣΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_300">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΤΖΑΝΕΙΟ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_323">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΒΡΑΥΡΩΝΑ - ΑΓ. ΝΙΚΟΛΑΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_155">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">155-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΛΗΝΙΚΟ - ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_16">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΙΩΑΝΝΗΣ ΡΕΝΤΗΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_164">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">164-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ.ΑΓ.ΔΗΜΗΤΡΙΟΣ - Κ. ΗΛ/ΠΟΛΗ - ΑΡΓ/ΠΟΛΗ - ΤΕΡΨΙΘΕΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_719">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΗΠΟΥΠΟΛΗ - ΠΑΛΑΤΙΑΝΗ - ΣΤ. ΛΑΡΙΣΗΣ(ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_731">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">731-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΘΟΥΠΟΛΗ - ΣΤ. Μ. ΑΝΘΟΥΠΟΛΗ- ΑΤΤΙΚΟ ΝΟΣ-ΔΑΣΟΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_543">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">543-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΑΘΜΟΣ ΚΗΦΙΣΙΑΣ - ΝΟΣΟΚ. ΑΓ. ΑΝΑΡΓΥΡΟΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α7">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α7-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΟΥΡΝΑΡΗ - ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Γ16">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Γ16-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛΑΤΕΙΑ ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΑΣΠΡΟΠΥΡΓΟΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_406">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜ. - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΣΤ. ΠΛΑΚΕΝΤΙΑΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">406-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_3">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ν. ΦΙΛΑΔΕΛΦΕΙΑ - ΑΝΩ ΠΑΤΗΣΙΑ - ΝΕΟ ΨΥΧΙΚΟ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_1">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛΑΤ. ΑΤΤΙΚΗΣ - ΤΖΙΤΖΙΦΙΕΣ - ΜΟΣΧΑΤΟ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_610">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">610-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΦΙΛΟΘΕΗ - ΑΜΠΕΛΟΚΗΠΟΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_810">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">810-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_123">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΑΡΩΝΙΔΑ - ΑΝΑΒΥΣΣΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_24">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΤΡΟΥΠΟΛΗ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_790">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΛΥΦΑΔΑ - ΠΕΡΙΣΤΕΡΙ (ΑΓ. ΑΝΤΩΝΙΟΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">790-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_040">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΣΥΝΤΑΓΜΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">040-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_201">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΡΓΥΡΟΥΠΟΛΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_800">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΙΚΑΙΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_209">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">209-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΕΤΑΜΟΡΦΩΣΗ - ΠΛΑΤΕΙΑ ΣΥΝΤΑΓΜΑΤΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_876">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">876-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΕΥΣΙΝΑ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_904">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΣΤ. ΠΕΙΡΑΙΑ - ΦΡΕΑΤΤΥΔΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">904-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_410">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ο.Α.Κ.Α - ΑΝΩ ΜΕΛΙΣΣΙΑ  (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_060">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">060-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΟΥΣΕΙΟ - ΑΚΑΔΗΜΙΑ - ΛΥΚΑΒΗΤΤΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_20">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ν. ΦΑΛΗΡΟ - ΚΑΣΤΕΛΛΑ - ΔΡΑΠΕΤΣΩΝΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Χ14">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Χ14-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΥΝΤΑΓΜΑ - ΚΗΦΙΣΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_909">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΒΑΣΙΛΕΙΟΣ - ΑΓ. ΣΟΦΙΑ - ΚΡΑΤ. ΝΙΚΑΙΑΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">909-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α3">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α3-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΚΑΔΗΜΙΑ - ΓΛΥΦΑΔΑ  (Μέσω ΒΟΥΛΙΑΓΜΕΝΗΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_10">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΖΙΤΖΙΦΙΕΣ - ΧΑΛΑΝΔΡΙ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">022-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ν. ΚΥΨΕΛΗ - ΜΑΡΑΣΛΕΙΟΣ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_811">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΧΑΪΔΑΡΙ - ΣΤ. ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">811-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_404">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΘΝ.ΑΜΥΝΑΣ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">404-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_560">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">560-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΚΗΦΙΣΙΑ - ΜΟΡΤΕΡΟ - Ν. ΕΡΥΘΡΑΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_112">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΣΤΑΘ. ΔΑΦΝΗΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_057">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">057-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΛΟΦΟΣ ΣΚΟΥΖΕ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_220">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΙΛΙΣΙΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_608">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΑΛΑΤΣΙ - ΑΚΑΔΗΜΙΑ - ΝΕΚΡ. ΖΩΓΡΑΦΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">608-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_19">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΟΥΣΕΙΟ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ (ΣΙΔΕΡΑ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_860">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Π. ΦΑΛΗΡΟ-ΓΕΝ. ΚΡΑΤΙΚΟ ΝΙΚΑΙΑΣ-ΣΧΙΣΤΟ ΚΕΡΑΤΣΙΝΙΟΥ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">860-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_035">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">035-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΚΥΨΕΛΗ - ΠΕΤΡΑΛΩΝΑ - ΤΑΥΡΟΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_308">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΠΑΙΑΝΙΑ - ΚΟΡΩΠΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">308-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_322">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">322-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΝΙΚΟΛΑΟΣ - ΒΡΑΥΡΩΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_750">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΤΤΙΚΟ ΝΟΣΟΚΟΜΕΙΟ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ - ΝΙΚΑΙΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_237">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">237-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΑΦΝΗ - ΑΝΩ ΗΛΙΟΥΠΟΛΗ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β10">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β10-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ (Μέσω ΑΡΙΣΤΟΤΕΛΟΥΣ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_863">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">863-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΕΥΣΙΝΑ - ΘΡΙΑΣΙΟ ΝΟΣ. - ΜΑΝΔΡΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_054">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">054-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΡΙΣΣΟΣ - ΑΚΑΔΗΜΙΑ - ΜΕΤΑΜΟΡΦΩΣΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_250">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΣΤ. ΕΥΑΓΓΕΛΙΣΜΟΥ (ΚΥΚΛΙΚΗ) ΣΧ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_820">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">820-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΕΡΑΤΣΙΝΙ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_846">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">846-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_906">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΚΑΛΛΙΠΟΛΗ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">906-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_203">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΡΕΑΣ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_6">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΙΠΠΟΚΡΑΤΟΥΣ -ΚΟΣΜΑΣ ΑΙΤΩΛΟΣ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_049">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΟΜΟΝΟΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">049-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_126">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΛ. ΦΑΛΗΡΟ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α13">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΚΗΠΟΥΠΟΛΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α13-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_501">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΥΚΗ - ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">501-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Γ18">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω ΓΡ. ΛΑΜΠΡΑΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Γ18-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_705">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΜΑΤΕΡΟ-ΙΛΙΟΝ-ΠΛ.ΑΓ.ΑΝΑΡΓΥΡΩΝ-ΣΤ.ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛ.</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">705-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_852">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΕΑΠΟΛΗ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">852-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_15">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΤΡΑΛΩΝΑ - ΔΙΚΑΣΤΗΡΙΑ - ΕΛ. ΒΕΝΙΖΕΛΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_165">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΕΡΨΙΘΕΑ - ΑΡΓΥΡΟΥΠΟΛΗ - ΣΥΝΤΑΓΜΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_821">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓΙΑ ΑΝΑΣΤΑΣΙΑ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">821-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_324">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">324-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΘΟΥΣΑ - ΠΑΛΛΗΝΗ - ΚΑΝΤΖΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_330">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΟΡΩΠΙ - ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_109">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΝΩ ΚΑΛΑΜΑΚΙ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">109-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_527">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">527-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΥΚΗ - ΝΕΡΑΤΖΙΩΤΙΣΣΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_807">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">807-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_809">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">809-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_861">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ (ΟΙΚΙΣΜΟΣ ΤΙΤΑΝ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">861-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_316">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">316-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_027">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΙΠΠΟΚΡΑΤΟΥΣ - ΟΡΦΕΩΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">027-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β15">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β15-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΛΑΡΙΣΗΣ - ΠΑΛΑΤΑΚΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_306">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">306-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ-ΔΗΜΑΡΧ. ΓΕΡΑΚΑ-ΜΠΑΛΑΝΑ ΓΕΡΑΚΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_032">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">032-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΓΟΥΔΗ - ΜΑΡΑΣΛΕΙΟΣ (ΣΧΟΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_704">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΜΑΤΕΡΟ - ΠΛ. ΑΓ. ΑΝΑΡΓΥΡΩΝ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">704-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_604">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΟΣ. ΑΓ. ΑΝΑΡΓΥΡΩΝ - ΣΤ. ΜΕΤΑΜΟΡΦΩΣΗΣ - ΝΕΑ ΙΩΝΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">604-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_142">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΑΡΓΥΡΟΥΠΟΛΗ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_823">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ- ΑΓ. ΒΑΣΙΛΕΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">823-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Τ4">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Τ4-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΥΝΤΑΓΜΑ - ΝΕΟ ΦΑΛΗΡΟ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#rail_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_847">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">847-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_421">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΑΓ. ΠΑΡΑΣΚΕΥΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_171">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΒΑΡΚΙΖΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_217">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">217-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_137">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ Ν. ΣΜΥΡΝΗ Α - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_219">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΚΑΛΛΙΘΕΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">219-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_735">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΧΑΡΝΑΙ -ΖΕΦΥΡΙ - ΣΤ. ΚΑΤΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">735-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_803">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">803-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΔΑΣΟΣ Β (Μέσω ΙΕΡΑΣ ΟΔΟΥ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_141">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΑΦΝΗΣ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_314">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΝΟΜ. ΑΝ. ΑΤΤΙΚΗΣ - ΠΑΛΛΗΝΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_416">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΧΟΛΑΡΓΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">416-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_235">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">235-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΖΩΓΡΑΦΟΥ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_12">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΖΑΠΠΕΙΟ - ΠΕΡΙΣΤΕΡΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_304">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΒΡΑΥΡΩΝΑ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">304-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_122">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΛΛΗΝΙΚΟ - ΣΑΡΩΝΙΔΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">122-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_221">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">221-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_411">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΣΙΣΜΑΝΟΓΛΕΙΟ - ΧΑΛΑΝΔΡΙ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">411-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_154">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">154-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΛΛΗΝΙΚΟ - ΑΝΩ ΓΛΥΦΑΔΑ (ΠΑΝΟΡΑΜΑ ΒΟΥΛΑΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_301Β">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">301Β-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΤΟΠΙΚΗ ΑΝΘΟΥΣΑΣ - ΝΤΡΑΦΙ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_206">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΔΑΦΝΗ - ΑΓΙΑ ΜΑΡΙΝΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_724">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">724-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΘΡΑΚ/ΔΟΝΕΣ - ΑΧΑΡΝΑΙ - Ν. ΙΩΝΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_865">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΜΑΝΔΡΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_224">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">224-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΙΣΑΡΙΑΝΗ - ΕΛ. ΒΕΝΙΖΕΛΟΥ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_915">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΛΟΦΟΣ ΒΩΚΟΥ- ΠΡ.ΗΛΙΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">915-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Μ2">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Μ2-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΘΟΥΠΟΛΗ - ΣΤ.ΕΛΛΗΝΙΚΟ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Ε15">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ε15-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΛΑΡΙΣΗΣ - ΤΕΙ ΑΘΗΝΩΝ (ΣΧΟΛΙΚΗ  EXPRESS)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_17">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΓ. ΓΕΩΡΓΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_051">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΟΜΟΝΟΙΑ - ΣΤΑΘ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">051-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_11">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α. ΠΑΤΗΣΙΑ - Ν. ΠΑΓΚΡΑΤΙ - Ν. ΕΛΒΕΤΙΑ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_855">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΨΑΡΙ - ΑΣΠΡΟΠΥΡΓΟΣ - ΛΟΦΟΣ ΚΥΡΙΛΛΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α11">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ (ΜΕΣΩ ΠΑΝΟΡΑΜΑΤΟΣ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α11-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_602">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ν. ΙΩΝΙΑ - ΚΑΛΟΓΡΕΖΑ - ΣΤΑΘ. ΠΑΝΟΡΜΟΥ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">602-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_420">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΑΓ. ΑΝΑΡΓΥΡΟΙ (Μέσω ΚΗΦΙΣΟΥ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_230">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΚΡΟΠΟΛΗ - ΖΩΓΡΑΦΟΥ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_605">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> ΠΕΡΙΣΣΟΣ - ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">605-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_875">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">875-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - Ν. ΜΩΛΟΣ ΔΡΑΠΕΤΣΩΝΑΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_307">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">307-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ - ΓΛ. ΝΕΡΑ - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Χ93">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Χ93-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ - ΑΕΡ/ΝΑΣ ΑΘΗΝΩΝ (EXPRESS)</MoPT:route_long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Μ3">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Μ3-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓΙΑ ΜΑΡΙΝΑ - ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΑΕΡΟΔΡΟΜΙΟ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_136">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΝΩ Ν. ΣΜΥΡΝΗ Β - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_871">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω Λ. ΕΘΝ.ΑΝΤΙΣΤΑΣΕΩΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">871-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Μ1">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Μ1-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#metro_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Α2">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΚΑΔΗΜΙΑ - ΒΟΥΛΑ (Μέσω Λ. ΑΜΦΙΘΕΑΣ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Α2-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_5">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΛΑΜΠΡΙΝΗ - ΠΛ. ΣΥΝΤΑΓΜΑΤΟΣ - ΤΖΙΤΖΙΦΙΕΣ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_402">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΔΡΟΣΟ</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_444">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">444-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΕΙΡΗΝΗ - ΓΑΛΑΤΣΙ - ΣΤ. ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_910">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ - ΤΖΙΤΖΙΦΙΕΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_732">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">732-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΑΓ. ΦΑΝΟΥΡΙΟΣ - ΑΚΑΔΗΜΙΑ - ΖΩΟΔ. ΠΗΓΗ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_862">
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">862-20</MoPT:route_id>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΠΑΡΑΛΙΑ - ΑΝΩ ΕΛΕΥΣΙΝΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_Β12">
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#bus_route"/>
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΜΑΡΝΗ - ΑΝΩ ΛΙΟΣΙΑ</MoPT:route_long>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Β12-20</MoPT:route_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_25">
+    <MoPT:route_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)</MoPT:route_long>
+    <MoPT:route_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25-20</MoPT:route_id>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#tram_route"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+  </rdf:Description>
+</rdf:RDF>
