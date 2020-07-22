@@ -37,7 +37,7 @@ if __name__ == '__main__':
                     genericNode_stop, boardingArea_stop]
 
     g = Graph() #RDF graph constructor
-    #read the data from routes.txt
+    #read the data from stops.txt
     f = open(os.path.dirname(__file__) + '/../data/stops.txt')
     #consume first line
     line = f.readline()
@@ -53,8 +53,8 @@ if __name__ == '__main__':
         stop_type_URI = stopType_list[int(stop_type)]
 
 
-        #name URI for this route using its short name (i.e buss with number 131 will have
-        #URI: http://www.semanticweb.org/knowsys_project/ontologies/MoPT#131)
+        #name URI for this route using its short name (i.e stop with id 13101 will have
+        #URI: http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_13101)
         this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_" + stop_id)
 
         g.add((this_URI, RDF.type, stop_type_URI))

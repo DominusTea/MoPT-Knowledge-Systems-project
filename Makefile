@@ -20,10 +20,10 @@ clear:
 	rm temp/*
 
 source/scripts/routes-basic.py:
-	python3 source/scripts/routes-basic.py
+	$PXX source/scripts/routes-basic.py
 
-source/scripts/stops-basic: 
-	python3 source/scripts/stops-basic.py
+source/scripts/stops-basic:
+	$PXX source/scripts/stops-basic.py
 
-build: source/scripts/routes-basic.py source/scripts/stops-basic.py
+build: source/Abox/routes-basic.txt source/Abox/stops-basic.txt
 	#python3 setup.py

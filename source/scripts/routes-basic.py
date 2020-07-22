@@ -17,6 +17,7 @@ if __name__ == '__main__':
     MoPT = Namespace("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#")
     route_long_name = MoPT.route_long #URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_long")
     route_id_URI = MoPT.route_id
+    route_short_name = MoPT.route_short
     # Create  RDF URI nodes for every route type to use as the subject for multiple triples
 
     routes = MoPT.routes
@@ -66,11 +67,12 @@ if __name__ == '__main__':
 
         #name URI for this route using its short name (i.e buss with number 131 will have
         #URI: http://www.semanticweb.org/knowsys_project/ontologies/MoPT#131)
-        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_" + route_short)
+        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_" + route_id)
 
         g.add((this_URI, RDF.type, route_type_URI))
         g.add((this_URI, route_long_name, Literal(route_long, datatype=XSD.string)))
         g.add((this_URI, route_id_URI, Literal(route_id, datatype=XSD.string)))
+        g.add((this_URI, route_short_name, Literal(route_short, datatype=XSD.string)))
         #since no Reasoning takes place we also have to assert that this particular route_type route is a route
         g.add((this_URI, RDF.type, routes))
 
