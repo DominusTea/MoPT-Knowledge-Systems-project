@@ -25,5 +25,7 @@ source/scripts/routes-basic.py:
 source/scripts/stops-basic:
 	$PXX source/scripts/stops-basic.py
 
-build: source/Abox/routes-basic.txt source/Abox/stops-basic.txt
+source/scripts/trips-basic:
+
+build: source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/stopsOfTrips.txt
 	#python3 setup.py
