@@ -72,5 +72,9 @@ if __name__ == '__main__':
     #bind namespaces to prefices for more readable  output
     g.bind("MoPT", MoPT)
     g.bind("LinkedGeoData", LinkedGeoData)
+    f.close()
     #serialzie to file using prefered format
     g.serialize(destination="source/Abox/stops-basic.txt", format="turtle")
+    ff = open(os.path.dirname(__file__) + '/../Abox/stops-basic.graph', "w+")
+    ff.write("http://localgraph.org/stops-basic")
+    ff.close()

@@ -1,0 +1,11 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX LinkedGeoData: <http://www.openlinksw.com/schemas/virtrdf#>
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf:
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x ?y
+WHERE { ?x rdf:type MoPT:stops .
+ ?x MoPT:stop_location ?y .
+ FILTER (bif:st_intersects (?y, bif:st_point (0, 52), 1))
+
+}

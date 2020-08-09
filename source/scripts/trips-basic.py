@@ -83,5 +83,9 @@ if __name__ == '__main__':
 
     #bind namespaces to prefices for more readable  output
     g.bind("MoPT", MoPT)
+    f.close()
     #serialzie to file using prefered format
-    g.serialize(destination="source/Abox/trips-basic.txt", format="turtle")
+    g.serialize(destination="source/Abox/trips-basic.ttl", format="turtle")
+    ff = open(os.path.dirname(__file__) + '/../Abox/trips-basic.graph', "w+")
+    ff.write("http://localgraph.org/trips-basic")
+    ff.close()

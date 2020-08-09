@@ -60,17 +60,24 @@ if __name__ == '__main__':
         g.add((this_URI, stopOfTrip_ArrType_URI, Literal(PickupType, datatype=XSD.int)))
         g.add((this_URI, stopOfTrip_DropType_URI, Literal(DropOffType, datatype=XSD.int)))
 
-
         #read next line
         i+=1
         line=f.readline()
 
         #print progress
         if(i%10000==0):
-            print("line is ", i, " progress: ", round(i/numLines,3), "%")
+            print("line is ", i, " progress: ", round(100*i/numLines,3), "%")
 
     #bind namespaces to prefices for more readable  output
     g.bind("MoPT", MoPT)
+    f.close()
 
     #serialzie to file using prefered format
+    print("starting xml serialization. This will take a long time.")
+    g.serialize(destination="source/Abox/stopsOfTripsXML.txt", format="xml")
+    print("starting turtle serialization. This will take a long time.")
     g.serialize(destination="source/Abox/stopsOfTrips.txt", format="turtle")
+
+    ff = open(os.path.dirname(__file__) + '/../Abox/stopsOfTrips.graph', "w+")
+    ff.write("http://localgrap.org/stopsOfTrips")
+    ff.close()

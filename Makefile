@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: build start_server
 
 PXX=python3
 
@@ -26,6 +26,13 @@ source/scripts/stops-basic:
 	$PXX source/scripts/stops-basic.py
 
 source/scripts/trips-basic:
+	$PXX source/scripts/trips-basic.py
 
-build: source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/stopsOfTrips.txt
+source/scripts/stopsOfTrips:
+	$PXX source/scripts/stopsOfTrips.py
+
+start_server:
+	sudo /usr/bin/virtuoso-t -fd -c /etc/virtuoso-opensource-6.1/virtuoso.ini
+
+build: MoPT.owl source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/stopsOfTrips.txt
 	#python3 setup.py
