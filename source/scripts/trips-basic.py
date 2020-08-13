@@ -31,6 +31,7 @@ if __name__ == '__main__':
     trip_id_URI = MoPT.trip_id
     trip_service_id_URI = MoPT.trip_service_id
     trip_route_id_URI = MoPT.trip_route_id
+    trip_day_URI = MoPT.trip_day
     providesTrip_URI = MoPT.providesTrip
     providedBy_URI = MoPT.providedBy
     hasRoute_URI = MoPT.hasRoute
@@ -53,6 +54,11 @@ if __name__ == '__main__':
         trip_id = line[2].split('-')[0]
         trip_headsign = line[3]
         trip_direction = line[4]
+        
+        if (len(line[1].split('-')) == 4 ):
+            trip_day = line[1].split('-')[2]
+        else:
+            trip_day = line[1].split('-')[2]+'-'+line[1].split('-')[3]
         #get URIRef of corresponding route
         corresponding_route_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#route_" + trip_route_id)
 
@@ -69,7 +75,7 @@ if __name__ == '__main__':
         g.add((this_URI, trip_id_URI, Literal(trip_id, datatype=XSD.integer)))
         g.add((this_URI, trip_headsign_URI, Literal(trip_headsign, datatype=XSD.string)))
         g.add((this_URI, trip_direction_URI, Literal(trip_direction, datatype=XSD.integer)))
-
+        g.add((this_URI, trip_day_URI, Literal(trip_day, datatype=XSD.string)))
         #data about corresponding agency
         g.add((this_URI, providedBy_URI, trip_agency_URI))
         g.add((trip_agency_URI, providesTrip_URI, this_URI))

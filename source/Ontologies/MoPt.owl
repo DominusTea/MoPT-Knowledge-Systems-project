@@ -250,6 +250,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_day">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_direction -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_direction">

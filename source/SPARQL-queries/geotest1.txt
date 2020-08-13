@@ -6,6 +6,6 @@ PREFIX rdf:
 SELECT ?x ?y
 WHERE { ?x rdf:type MoPT:stops .
  ?x MoPT:stop_location ?y .
- FILTER (bif:st_intersects (?y, bif:st_point (0, 52), 1))
+ FILTER (bif:st_intersects (?y, (bif:st_point (0, 52), 1) ))
 
 }

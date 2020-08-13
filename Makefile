@@ -1,6 +1,10 @@
 .PHONY: build start_server
 
+
+#change paths belwoto match local folder system
 PXX=python3
+VIRT_PATH=../virtuoso-opensource/bin
+ABOX_PATH=~/Documents/know_sys/project/MoPT_app/source/Abox
 
 download:
 	#wget http://geodata.gov.gr/dataset/244cfb87-21a0-4f9f-90af-25e9a232af41/resource/d94179a0-a2bd-432f-8c5e-e05eae2886cf/download/googletransit.zip -P temp
@@ -30,6 +34,18 @@ source/scripts/trips-basic:
 
 source/scripts/stopsOfTrips:
 	$PXX source/scripts/stopsOfTrips.py
+
+upload_stops:
+
+	#$(VIRTU_PATH)/isql ld_dir('~/Documents/know_sys/project/MoPT_app/source/Abox', 'stops-basic.txt', 'http://localgraph.org/stops-basic')
+	$(VIRT_PATH)/isql rdf_loader_run;
+	#$VIRT_PATH/isql checkpoint;
+
+upload_trips:
+	#ld_dir('/home/pelopidas/Documents/know_sys/project/MoPT_app/source/Abox', 'trips-basic.ttl', 'http://localgraph.org/trips-basic')   ;
+
+
+
 
 start_server:
 	sudo /usr/bin/virtuoso-t -fd -c /etc/virtuoso-opensource-6.1/virtuoso.ini

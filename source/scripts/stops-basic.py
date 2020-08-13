@@ -60,7 +60,7 @@ if __name__ == '__main__':
         g.add((this_URI, RDF.type, stop_type_URI))
         g.add((this_URI, stop_name_URI, Literal(stop_name, datatype=XSD.string)))
         g.add((this_URI, stop_address_URI, Literal(stop_address, datatype=XSD.string)))
-        g.add((this_URI, stop_location_URI, Literal("POINT(" + stop_lan + ' ' + stop_lon + ")" , datatype=LinkedGeoData )))
+        g.add((this_URI, stop_location_URI, Literal("POINT(" + stop_lan + ' ' + stop_lon + ")" , datatype=LinkedGeoData.Geometry )))
 
         #since no Reasoning takes place we also have to assert that this particular stop_type stop is also a stop
         g.add((this_URI, RDF.type, stops))
