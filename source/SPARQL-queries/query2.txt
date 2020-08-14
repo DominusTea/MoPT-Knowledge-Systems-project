@@ -1,0 +1,26 @@
+--
+-- 37.946108, 23.703202
+-- 37.955182, 23.715021
+-- 37.950518, 23.719589
+-- 37.943749, 23.727669
+-- 37.936893, 23.718950
+-- 37.939916, 23.713019
+-- 37.946108, 23.703202
+
+-- This query returns names and addresses of bus stops in
+-- the Upper and Lower Nea Smirni area.
+
+PREFIX LinkedGeoData:
+ <http://www.openlinksw.com/schemas/virtrdf#>
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?bstop_address, ?bstop_name
+WHERE {
+?bstop rdf:type MoPT:stops .
+?bstop MoPT:stop_location ?bstop_loc .
+?bstop MoPT:stop_address ?bstop_address .
+?bstop MoPT:stop_name ?bstop_name .
+FILTER(bif:st_intersects(?bstop_loc, bif:st_geomfromtext ("POLYGON ((37.946108 23.703202, 37.955182 23.715021, 37.950518 23.719589, 37.943749 23.727669, 37.936893 23.718950, 37.939916 23.713019, 37.946108 23.703202))")))
+
+}
