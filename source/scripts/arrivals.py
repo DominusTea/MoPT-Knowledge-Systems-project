@@ -19,14 +19,16 @@ if __name__ == '__main__':
 
     #define namespaces and URIs
     MoPT = Namespace("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#")
-    stopsOfTrips = MoPT.stopsOfTrips #URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops")
-    stop_id_URI = MoPT.stop_id
-    trip_id_URI = MoPT.trip_id
-    stopOfTrip_arrTime_URI = MoPT.arrival_time
-    stopOfTrip_depTime_URI = MoPT.departure_time
-    stopOfTrip_seq_URI = MoPT.stopOfTrip_seq
-    stopOfTrip_ArrType_URI = MoPT.stopOfTrip_arrivalType
-    stopOfTrip_DropType_URI = MoPT.stopOfTrip_dropOffType
+    arrivals = MoPT.arrivals #URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals")
+    arrival_arrTime_URI = MoPT.arrival_time
+    arrival_depTime_URI = MoPT.departure_time
+    arrival_seq_URI = MoPT.arrival_seq
+    arrival_ArrType_URI = MoPT.arrival_arrivalType
+    arrival_DropType_URI = MoPT.arrival_dropOffType
+
+    arrivalHasTrip_URI = MoPT.arrivalHasTrip
+    arrivalHasStop_URI = MoPT.arrivalHasStop
+
 
     i=2
 
@@ -46,19 +48,23 @@ if __name__ == '__main__':
         #split trip_id and keep unique id (exactly as we do in trips-basic.py)
         trip_id = trip_id.split('-')[0]
 
+        #find URIs of corresponding trip and stop
+        corresp_stop_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_" + stop_id)
+        corresp_trip_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_" + trip_id)
+
         #add data to RDF Graph
+        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_" + stop_id+ '_' + trip_id)
+
+        g.add((this_URI, RDF.type, arrivals))
+        g.add((this_URI, arrivalHasStop_URI, corresp_stop_URI ))
+        g.add((this_URI, arrivalHasTrip_URI, corresp_trip_URI))
 
 
-        this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_" + stop_id+ '_' + trip_id)
-
-        g.add((this_URI, RDF.type, stopsOfTrips))
-        g.add((this_URI, stop_id_URI, Literal(stop_id, datatype=XSD.int)))
-        g.add((this_URI, trip_id_URI, Literal(trip_id, datatype=XSD.int)))
-        g.add((this_URI, stopOfTrip_arrTime_URI, Literal(arrival_time, datatype=XSD.time)))
-        g.add((this_URI, stopOfTrip_depTime_URI, Literal(departure_time, datatype=XSD.time)))
-        g.add((this_URI, stopOfTrip_seq_URI, Literal(stop_seq, datatype=XSD.nonNegativeInteger)))
-        g.add((this_URI, stopOfTrip_ArrType_URI, Literal(PickupType, datatype=XSD.int)))
-        g.add((this_URI, stopOfTrip_DropType_URI, Literal(DropOffType, datatype=XSD.int)))
+        g.add((this_URI, arrival_arrTime_URI, Literal(arrival_time, datatype=XSD.time)))
+        g.add((this_URI, arrival_depTime_URI, Literal(departure_time, datatype=XSD.time)))
+        g.add((this_URI, arrival_seq_URI, Literal(stop_seq, datatype=XSD.nonNegativeInteger)))
+        g.add((this_URI, arrival_ArrType_URI, Literal(PickupType, datatype=XSD.int)))
+        g.add((this_URI, arrival_DropType_URI, Literal(DropOffType, datatype=XSD.int)))
 
         #read next line
         i+=1
@@ -73,11 +79,9 @@ if __name__ == '__main__':
     f.close()
 
     #serialzie to file using prefered format
-    print("starting xml serialization. This will take a long time.")
-    g.serialize(destination="source/Abox/stopsOfTripsXML.txt", format="xml")
     print("starting turtle serialization. This will take a long time.")
-    g.serialize(destination="source/Abox/stopsOfTrips.txt", format="turtle")
+    g.serialize(destination="source/Abox/arrivals.txt", format="turtle")
 
-    ff = open(os.path.dirname(__file__) + '/../Abox/stopsOfTrips.graph', "w+")
-    ff.write("http://localgrap.org/stopsOfTrips")
+    ff = open(os.path.dirname(__file__) + '/../Abox/arrivals.graph', "w+")
+    ff.write("http://localgraph.org/arrivals")
     ff.close()

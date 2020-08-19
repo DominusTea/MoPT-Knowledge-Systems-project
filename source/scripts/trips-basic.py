@@ -49,12 +49,12 @@ if __name__ == '__main__':
     while line:
         #split line and get data
         line = line.split(',')
-        trip_route_id = line[0]
+        trip_route_id = line[0].split('-')[0]
         trip_service_id = line[1]
         trip_id = line[2].split('-')[0]
         trip_headsign = line[3]
         trip_direction = line[4]
-        
+
         if (len(line[1].split('-')) == 4 ):
             trip_day = line[1].split('-')[2]
         else:

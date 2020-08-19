@@ -47,7 +47,7 @@ if __name__ == '__main__':
     while line:
         #split line and get data
         line = line.split(',')
-        route_id = line[0]
+        route_id = line[0].split('-')[0]
         route_short = line[1]
         route_long=line[2][1:len(line[2])-1]
         route_type=line[4]
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     g.bind("MoPT", MoPT)
     f.close()
     #serialzie to file using prefered format
-    g.serialize(destination="source/Abox/routes-basic.txt", format="xml")
+    g.serialize(destination="source/Abox/routes-basic.txt", format="ttl")
     ff = open(os.path.dirname(__file__) + '/../Abox/routes-basic.graph', "w+")
     ff.write("http://localgraph.org/routes-basic")
     ff.close()

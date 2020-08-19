@@ -1,0 +1,21 @@
+-- This query returns the trip (and their corresponding headsign messages and route name) that pass
+-- through a given stop(with stop id 340027) in a time interval of 20 minutes
+-- for a given time (10:00 am) and day (Tuesday).
+
+
+
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+SELECT ?trip_head ?route_name
+WHERE {
+  ?arr MoPT:arrivalHasStop MoPT:stop_340027 .
+  ?arr MoPT:arrival_time ?tim .
+  ?arr MoPT:arrivalHasTrip ?trip .
+  ?trip MoPT:trip_headsign ?trip_head .
+  ?trip MoPT:hasRoute ?route .
+  ?route MoPT:route_short >route_name .
+  FILTER (?tim >= "10:00:00"^^xsd:time && ?time <= "10:20:00"^^xsd:time  )
+}

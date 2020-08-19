@@ -50,5 +50,5 @@ upload_trips:
 start_server:
 	sudo /usr/bin/virtuoso-t -fd -c /etc/virtuoso-opensource-6.1/virtuoso.ini
 
-build: MoPT.owl source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/stopsOfTrips.txt
+build: MoPT.owl source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/arrivals.txt
 	#python3 setup.py

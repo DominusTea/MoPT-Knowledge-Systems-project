@@ -1,5 +1,5 @@
 -- The following query finds the name of the 5 closest (to the current location)
---  bus stop and its location.
+--  bus stop and their location.
 
 
 PREFIX LinkedGeoData:
@@ -11,7 +11,15 @@ SELECT  ?bstop_address ?bstop_name
 WHERE { ?bstop rdf:type MoPT:stops .
   ?bstop MoPT:stop_address ?bstop_address .
   ?bstop MoPT:stop_location ?bstop_loc .
-  ?bstop MoPT:stop_name ?bstop_name
+  ?bstop MoPT:stop_name ?bstop_name .
+  FILTER EXISTS {
+  ?arr MoPT:arrivalHasStop ?bstop .
+  ?arr MoPT:arrivalHasTrip ?trip .
+  ?trip MoPT:hasRoute ?route .
+  ?route rdf:type MoPT:bus_route
+  }
+
+
 }
 ORDER BY (bif:st_distance(bif:st_point(37.941749, 23.721553), ?bstop_loc))
 LIMIT 5

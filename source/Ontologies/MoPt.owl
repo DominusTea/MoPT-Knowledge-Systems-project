@@ -39,6 +39,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivalHasStop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivalHasStop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivalHasTrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivalHasTrip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasRoute -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#hasRoute">
@@ -119,6 +137,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_arrivalType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_arrivalType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_dropOffType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_dropOffType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_seq -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_seq">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment xml:lang="en">Index of stop sequence for this specific stop and this particular trip.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_time -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrival_time">
@@ -166,34 +212,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_arrivalType -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_arrivalType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_dropOffType -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_dropOffType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_seq -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopOfTrip_seq">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-        <rdfs:comment xml:lang="en">Index of stop sequence for this specific stop and this particular trip.</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_address -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_address">
@@ -209,14 +227,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_id">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stops"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">Each stop has a unique stop id</rdfs:comment>
     </owl:DatatypeProperty>
@@ -291,14 +302,7 @@
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_service_id -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trip_service_id">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -327,6 +331,14 @@
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#arrivals">
+        <rdfs:comment xml:lang="en">A stop can belong to multiple routes. An arrival instance belongs to a specific trip. Essentialy this encodes the information about a particular trip&apos;s arrival at a particular stop.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -468,14 +480,6 @@ Pathways are not used/mplemented in our database.</rdfs:comment>
             <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#station_stop"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopPlatform_stop"/>
         </owl:disjointUnionOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stopsOfTrips">
-        <rdfs:comment xml:lang="en">A stop can belong to multiple routes. A stopOfRoute instance belongs to a specific route.</rdfs:comment>
     </owl:Class>
     
 
