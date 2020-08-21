@@ -2,7 +2,7 @@
 This script produces the  Ntriples containing basic information about
 the (GTFS) route data class.
 routes information should be in source/data/routes.txt
-output file routes-basic.(??) will be placed in source/Abox
+output file routes-basic.txt will be placed in source/Abox
 '''
 
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode

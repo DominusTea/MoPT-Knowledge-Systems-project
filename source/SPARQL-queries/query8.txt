@@ -1,0 +1,21 @@
+-- This query returns the number of all permantly damaged
+-- vehicles used in bus routes, that are owned by agency with agency_id = 42
+
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT COUNT(*)
+WHERE {
+    ?veh rdf:type MoPT:vehicles .
+    ?veh MoPT:vehicle_status ?veh_stat .
+
+    ?ag MoPT:ownsVehicle ?veh .
+    ?ag MoPT:agency_id ?ag_id .
+
+    ?trip MoPT:usesVehicle ?veh .
+    ?trip MoPT:hasRoute ?route .
+    ?route rdf:type MoPT:bus_route
+
+    FILTER(?veh_stat = 2 && ag_id = 42 )
+}

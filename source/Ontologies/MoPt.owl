@@ -78,6 +78,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ownsVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#ownsVehicle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles"/>
+        <rdfs:comment xml:lang="en">Property that denotes that an agency owns a vehicle.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#providedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#providedBy">
@@ -95,6 +105,16 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
         <rdfs:comment xml:lang="en">An agency provides a trip</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#usesVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#usesVehicle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles"/>
+        <rdfs:comment xml:lang="en">An instance of class trips uses an instance of class vehicles.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -308,6 +328,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicle_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicle_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicle_status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicle_status">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Unsigned integer denoting the current status of the vehicle.
+0 denotes that the vehicle is used as a transportation means.
+1 denotes that the vehicle is temporarily not being used (for reasons such as regular service being due, or simple mechanical damage that can be fixed.
+2 denotes that the vehicle suffers from permanent damage that cannot be fixed.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -331,6 +373,15 @@
     <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#airplane_route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#airplane_route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
+        <rdfs:comment xml:lang="en">Commercial airplane route. Used for long-short range flights.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -504,6 +555,14 @@ Pathways are not used/mplemented in our database.</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#trolleyBus_route">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#routes"/>
         <rdfs:comment xml:lang="en">GTFS route_type=11 (Trolleybus. Electric buses that draw power from overhead wires using poles)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/knowsys_project/ontologies/MoPT#vehicles">
+        <rdfs:comment xml:lang="en">This class models the vehicles used as means of transportation.</rdfs:comment>
     </owl:Class>
     
 

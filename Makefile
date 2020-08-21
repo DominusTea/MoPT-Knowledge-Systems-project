@@ -1,9 +1,10 @@
-.PHONY: build start_server
+.PHONY: build start_server Abox
 
 
 #change paths belwoto match local folder system
 PXX=python3
 VIRT_PATH=../virtuoso-opensource/bin
+VIRT_DIR=../virtuoso-opensource
 ABOX_PATH=~/Documents/know_sys/project/MoPT_app/source/Abox
 
 download:
@@ -32,8 +33,10 @@ source/scripts/stops-basic:
 source/scripts/trips-basic:
 	$PXX source/scripts/trips-basic.py
 
-source/scripts/stopsOfTrips:
-	$PXX source/scripts/stopsOfTrips.py
+source/scripts/arrivals:
+	$PXX source/scripts/arrivals.py
+
+Abox: source/scripts/routes-basic.py source/scripts/stops-basic source/scripts/trips-basic source/scripts/arivals
 
 upload_stops:
 
@@ -48,7 +51,7 @@ upload_trips:
 
 
 start_server:
-	sudo /usr/bin/virtuoso-t -fd -c /etc/virtuoso-opensource-6.1/virtuoso.ini
+	sudo $(VIRT_PATH)/virtuoso-t -fd -c $(VIRT_DIR)/databasevirtuoso.ini.sample
 
 
 build: MoPT.owl source/Abox/routes-basic.txt source/Abox/stops-basic.txt source/Abox/trips-basic.txt source/Abox/arrivals.txt

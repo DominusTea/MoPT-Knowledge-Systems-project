@@ -1,4 +1,4 @@
--- This query returns all the reachable stops from the stop with stop_id=
+-- This query returns all the reachable stops from the stop with stop_id=340027
 -- without any change of trasportation vehicle (that is, for example, using only
 -- one bus trip to reach another stop)
 

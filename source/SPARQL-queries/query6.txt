@@ -7,7 +7,7 @@ PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?trip ?arr_time ?dep_time
+SELECT ?trip ?trip_head ?arr_time ?dep_time
 WHERE {
 
   { #find all stops in Athens
@@ -42,6 +42,7 @@ WHERE {
 #and assert it is a airplane route
 ?trip_ath_skopj MoPT:hasRoute ?route_ath_skopj .
 ?route_ath_skopj rdf:type MoPT:airplane_route .
+?trip MoPT:trip_head ?trip_head
 
 #find sequence of arrivals
 ?arr1 MoPT:arrival_seq ?seq_ath .
