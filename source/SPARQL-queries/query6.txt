@@ -1,0 +1,57 @@
+-- This query returns all flight trips (with their corresponding names and flight
+-- departure and landing times) that depart from the area of Athens,
+-- Greece and depart to Skopje, North Macedonia. This query is is airport agnostic since
+-- it scans all airports in Athens and Skopje .
+
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?trip ?arr_time ?dep_time
+WHERE {
+
+  { #find all stops in Athens
+    SELECT ?stop AS ?stop_ath
+    WHERE {
+    ?stop rdf:type MoPT:stops .
+    ?stop MoPT:stop_location ?stop_loc .
+    ?stop MoPT:stop_address ?stop_address .
+    ?stop MoPT:stop_name ?stop_name .
+    FILTER(bif:st_intersects(?stop_loc, bif:st_geomfromtext ("POLYGON ((38.075609 23.512203, 38.126833 23.756285, 38.153746 23.877452, 38.041231 23.999741, 37.813518 24.051387, 37.802982 23.773815, 37.939056 23.622694, 38.075609 23.512203))")))
+    }
+  }
+
+  { #find all stops in Skopje
+    SELECT ?stop AS ?stop_skopj
+    WHERE {
+    ?stop rdf:type MoPT:stops .
+    ?stop MoPT:stop_location ?stop_loc .
+    ?stop MoPT:stop_address ?stop_address .
+    ?stop MoPT:stop_name ?stop_name .
+    FILTER(bif:st_intersects(?stop_loc, bif:st_geomfromtext ("POLYGON ((42.053499 21.340780, 42.041020 21.449740, 41.980602 21.653567, 41.946793 21.614481, 41.931839 21.529338, 42.004092 21.318612, 42.053499 21.340780 ))")))
+    }
+  }
+
+#find corresponding trip between athens and skopje
+?arr1 MoPT:arrivalHasStop ?stop_ath .
+?arr2 MoPT:arrivalHasStop ?stop_skopj .
+?arr1 MoPT:arrivalHasTrip ?trip_ath_skopj .
+?arr2 MoPT:arrivalHasTrip ?trip_ath_skopj .
+
+#find corresponding trips route
+#and assert it is a airplane route
+?trip_ath_skopj MoPT:hasRoute ?route_ath_skopj .
+?route_ath_skopj rdf:type MoPT:airplane_route .
+
+#find sequence of arrivals
+?arr1 MoPT:arrival_seq ?seq_ath .
+?arr2 MoPT:arrival_seq ?seq_skopj .
+
+#find departure and arrival time
+?arr1 MoPT:departure_time ?dep_time .
+?arr2 MoPT:arrival_time ?arr_time .
+
+#the flight must be from Athens to Skopje
+FILTER (?seq_skopj > ?seq_ath)
+
+}

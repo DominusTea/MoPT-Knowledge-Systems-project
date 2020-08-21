@@ -1,0 +1,21 @@
+-- This query returns all ferry trips that start on a Saturday and are provided by
+an agency with RedCube
+
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?trip_head AS ?trip_description
+WHERE {
+
+  ?trip rdf:type MoPT:trips .
+  ?trip MoPT:hasRoute ?route .
+  ?route rdf:type MoPT:ferry_route .
+
+  ?trip MoPT:trip_day ?day .
+  ?trip MoPT:provideBy ?agency .
+  ?agency MoPT:agency_name ?ag_nam .
+  FILTER(?day = "Σάββατο"^^xsd:string && regex(?ag_nam, "RedCube"))
+
+
+}

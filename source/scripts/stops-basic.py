@@ -21,6 +21,7 @@ if __name__ == '__main__':
     stop_name_URI = MoPT.stop_name
     stop_address_URI = MoPT.stop_address
     stop_location_URI = MoPT.stop_location
+    stop_id_URI = MoPT.stop_id
 
     LinkedGeoData = Namespace("http://www.openlinksw.com/schemas/virtrdf#")
 
@@ -58,6 +59,7 @@ if __name__ == '__main__':
         this_URI = URIRef("http://www.semanticweb.org/knowsys_project/ontologies/MoPT#stop_" + stop_id)
 
         g.add((this_URI, RDF.type, stop_type_URI))
+        g.add((this_URI, stop_id_URI, Literal(stop_id, datatype=XSD.int)))
         g.add((this_URI, stop_name_URI, Literal(stop_name, datatype=XSD.string)))
         g.add((this_URI, stop_address_URI, Literal(stop_address, datatype=XSD.string)))
         g.add((this_URI, stop_location_URI, Literal("POINT(" + stop_lan + ' ' + stop_lon + ")" , datatype=LinkedGeoData.Geometry )))

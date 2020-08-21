@@ -1,0 +1,21 @@
+-- This query returns all the reachable stops from the stop with stop_id=
+-- without any change of trasportation vehicle (that is, for example, using only
+-- one bus trip to reach another stop)
+
+PREFIX MoPT: <http://www.semanticweb.org/knowsys_project/ontologies/MoPT#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT SAMPLE(?stop_name) SAMPLE(?stop_location)
+WHERE {
+?arr MoPT:arrivalHasStop MoPT:stop_340027 .
+?arr MoPT:arrivalHasTrip ?trip .
+?arr1 MoPT:arrivalHasTrip ?trip .
+?arr1 MoPT:arrivalHasStop ?stop .
+?stop MoPT:stop_id ?stop_id .
+?stop MoPT:stop_name ?stop_name .
+?stop MoPT:stop_location ?stop_location .
+FILTER (?stop_id != "340027"^^xsd:int)
+
+}
+GROUP BY ?stop_id
